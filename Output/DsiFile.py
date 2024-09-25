@@ -2,9 +2,10 @@ def _format_xml_string(input):
     return input.replace("\"", "&quot;").replace("\'", "&apos;").replace("<", "&1lt;").replace(">", "“&gt;").replace(
         "&", '&amp;')
 
+
 class DsiFile:
 
-    def __init_ (self, graph, filename):
+    def __init__ (self, graph, filename):
         self._graph = graph
         self._filename = filename
         self._dsi_file = None
