@@ -13,7 +13,7 @@ class Node:
 
     def add_child(self, child):
         self._children.append(child)
-        child. parent = self
+        child._parent = self
 
     @property
     def fullname(self):

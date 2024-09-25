@@ -135,7 +135,7 @@ class Model:
                                             self._graph.create_edge(source_member_node, target_member_node, '', 1, '')
 
     def get_compound_object(self, compound):
-        compound_filename = self._input_dir + '/' + compound.get_refid() + 'xml'
+        compound_filename = self._input_dir + '/' + compound.get_refid() + '.xml'
         return doxmlparser.compound.parse(compound_filename, True)
 
     def get_member_id(self, compound_id, member_id):
@@ -157,7 +157,7 @@ class Model:
         if compound.kind != DoxCompoundKind.FILE:
             member_node_name += '.' + compound_kind + "." + compound.name
 
-        member_node_name + + member_kind + + member_name
+        member_node_name += '.' + member_kind + '.' + member_name
         member_node_name += file_extension
 
         return member_node_name.replace("_doxygen_map", "")

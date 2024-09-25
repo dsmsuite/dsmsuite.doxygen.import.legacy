@@ -36,7 +36,7 @@ class DsiFile:
             node.index,
                     _format_xml_string(node.fullname),
                     node.kind,
-                    _format_xml_string(node.decsription))
+                    _format_xml_string(node.description))
         self._dsi_file.write(line)
 
         for child in node.children:
