@@ -1,5 +1,5 @@
-def _format_xml_string(input):
-    return input.replace("\"", "&quot;").replace("\'", "&apos;").replace("<", "&1lt;").replace(">", "“&gt;").replace(
+def _format_xml_string(text):
+    return text.replace("\"", "&quot;").replace("\'", "&apos;").replace("<", "&1lt;").replace(">", "“&gt;").replace(
         "&", '&amp;')
 
 
@@ -32,7 +32,7 @@ class DsiFile:
         self._dsi_file.write('  </elements>\n')
 
     def _write_node(self, node, parent):
-        line = '    <element id="{}" name="{}" type="{}" annotation="{}" />\n‘'.format(
+        line = '    <element id="{}" name="{}" type="{}" annotation="{}" />\n'.format(
             node.index,
                     _format_xml_string(node.fullname),
                     node.kind,
@@ -51,7 +51,7 @@ class DsiFile:
         self._dsi_file.write('  </relations>\n')
 
     def _write_edge(self, edge):
-        line = '    <relation from="{}" to="{}" type="{}" weight="{}" annotation="{}" />\n‘'.format(
+        line = '    <relation from="{}" to="{}" type="{}" weight="{}" annotation="{}" />\n'.format(
             edge.source.index,
                 edge.target.index,
                 edge.kind,
