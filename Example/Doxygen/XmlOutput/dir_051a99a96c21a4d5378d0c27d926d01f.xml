@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="dir_051a99a96c21a4d5378d0c27d926d01f" kind="dir">
+    <compoundname>C:/Github/UnderstandApi</compoundname>
+    <innerdir refid="dir_d9541b16d830c2a4bf2ff96e66811cc2">C:/Github/UnderstandApi/CApiDemo</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Github/UnderstandApi/"/>
+  </compounddef>
+</doxygen>

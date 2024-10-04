@@ -1,0 +1,190 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.12.0" xml:lang="en-US">
+  <compound refid="class_entity" kind="class"><name>Entity</name>
+    <member refid="class_entity_1a726707b7b7ebb9d12983eee1be7c8e43" kind="variable"><name>_id</name></member>
+    <member refid="class_entity_1aeb0618ddf19879226a675c7c49d76592" kind="variable"><name>_namespace</name></member>
+    <member refid="class_entity_1a02f4b200b4132bc75b409502c3b91b53" kind="variable"><name>_name</name></member>
+    <member refid="class_entity_1affac726d66301459797e974165c4d364" kind="variable"><name>_type</name></member>
+    <member refid="class_entity_1a66f6d2579cd8a276c9b25d607b5912e3" kind="variable"><name>_scope</name></member>
+    <member refid="class_entity_1a0021e08f8490591ae2c8a773c85dcc56" kind="variable"><name>_kind</name></member>
+    <member refid="class_entity_1aafb7f353b492e605bbb3f718744c439f" kind="variable"><name>_language</name></member>
+    <member refid="class_entity_1a2f3031c5b46e66fab9bfbf5c0ce784f9" kind="variable"><name>_references</name></member>
+    <member refid="class_entity_1a6993fac5da99e92d192545be5f43abb0" kind="variable"><name>_metrics</name></member>
+    <member refid="class_entity_1a236cbb64fe232a1b66ed57d72f35b394" kind="variable"><name>_comment</name></member>
+    <member refid="class_entity_1ad58d708108fd9ccfafe8a779622c2c2e" kind="variable"><name>_kindText</name></member>
+    <member refid="class_entity_1a5a24d92e6422f27731740e39dfdd1342" kind="function"><name>Entity</name></member>
+    <member refid="class_entity_1adf6d3f7cb1b2ba029b6b048a395cc8ae" kind="function"><name>~Entity</name></member>
+    <member refid="class_entity_1a478be4b3bc1cc77e5fd92a7dda6689a4" kind="function"><name>GetId</name></member>
+    <member refid="class_entity_1ad75bc158939004ee5c85f0494c96f692" kind="function"><name>GetNamespace</name></member>
+    <member refid="class_entity_1a3e3ae0aea0c8609132f2e9d2918068f9" kind="function"><name>GetName</name></member>
+    <member refid="class_entity_1a833a9c5a17761143084f29a63be13fc2" kind="function"><name>GetType</name></member>
+    <member refid="class_entity_1a6f275046f7ea9c67f736359550a9c6df" kind="function"><name>GetScope</name></member>
+    <member refid="class_entity_1aa1370a5c927421dca0f2df0913eabe96" kind="function"><name>GetKind</name></member>
+    <member refid="class_entity_1a79c9488e06ea0e42216fc471dea05930" kind="function"><name>GetLanguage</name></member>
+    <member refid="class_entity_1a731df7d62d89351b8db1354a5d0fd2af" kind="function"><name>GetReferences</name></member>
+    <member refid="class_entity_1ab3a0c12af30851814d0c02a2609b6c1f" kind="function"><name>GetMetrics</name></member>
+    <member refid="class_entity_1aee4ee588be2dcd33fb732826cd089b83" kind="function"><name>GetComment</name></member>
+    <member refid="class_entity_1aa29dd7cf88ada1a02215ac5e8b3acf56" kind="function"><name>GetKindText</name></member>
+  </compound>
+  <compound refid="class_entity_kind_parser" kind="class"><name>EntityKindParser</name>
+    <member refid="class_entity_kind_parser_1aa1f75c6015892a4e665b9040d604e191" kind="variable"><name>_scope</name></member>
+    <member refid="class_entity_kind_parser_1a75a0905f6cdc29a60cadd4667e3facf8" kind="variable"><name>_entityKind</name></member>
+    <member refid="class_entity_kind_parser_1a62766700be158ea0c392d3c4c3f35925" kind="function"><name>EntityKindParser</name></member>
+    <member refid="class_entity_kind_parser_1aff58fdab06fd13c1c6a1d1c9278ffd7f" kind="function"><name>~EntityKindParser</name></member>
+    <member refid="class_entity_kind_parser_1a36b6ac1014738b1d449b6c3df4a1c707" kind="function"><name>ParseCppKinds</name></member>
+    <member refid="class_entity_kind_parser_1ab392873bd1f81b965282c0afed717e12" kind="function"><name>ParseCSharpKinds</name></member>
+    <member refid="class_entity_kind_parser_1abcfcdff1592d68b972430a5a5838c2f7" kind="function"><name>ParseJavaKinds</name></member>
+  </compound>
+  <compound refid="class_metric" kind="class"><name>Metric</name>
+    <member refid="class_metric_1a74ee15ba3bd9c0b0982e040b929dfd66" kind="variable"><name>_name</name></member>
+    <member refid="class_metric_1afdc4e83076950a09a5be681fd3d22676" kind="variable"><name>_description</name></member>
+    <member refid="class_metric_1af07f25c0d11c768b766d902ac0122a61" kind="variable"><name>_isInteger</name></member>
+    <member refid="class_metric_1a61c1f968913cc4efe233a3cc9bb2cdde" kind="variable"><name>_value</name></member>
+    <member refid="class_metric_1a9c11f52636941243f474249797aa6ec3" kind="function"><name>Metric</name></member>
+    <member refid="class_metric_1adc8e82a2fb75a49918fcf020b0d4ded7" kind="function"><name>~Metric</name></member>
+    <member refid="class_metric_1a718f0a94dc19cee87e239464befde15c" kind="function"><name>GetName</name></member>
+    <member refid="class_metric_1a3dc1969dc766cc75e1d39f6ad5618e9a" kind="function"><name>GetDescription</name></member>
+    <member refid="class_metric_1ae511f867ce5e6b7e119054d564bbc287" kind="function"><name>IsInteger</name></member>
+    <member refid="class_metric_1ad4578abfdd951d7f6d3f181c8544ac97" kind="function"><name>GetValue</name></member>
+  </compound>
+  <compound refid="class_project" kind="class"><name>Project</name>
+    <member refid="class_project_1a60fe18d197de100af3a94bd5bb9ce1c3" kind="variable"><name>_filename</name></member>
+    <member refid="class_project_1a66d52da1345d7bc580990231635ad97b" kind="variable"><name>_isOpen</name></member>
+    <member refid="class_project_1af14bcee15a23dfc3b1dc50272ebad7db" kind="function"><name>Project</name></member>
+    <member refid="class_project_1ad165d61b76ee86ee9c27fd987a2a7b9e" kind="function"><name>~Project</name></member>
+    <member refid="class_project_1a45bfe3647ba3320b3f67f4706e68aef5" kind="function"><name>Open</name></member>
+    <member refid="class_project_1abfef9969a7e24452b20ebfe2d025df1e" kind="function"><name>Close</name></member>
+    <member refid="class_project_1ac30a9db51b66b06d4145429f5017ab4f" kind="function"><name>GetLanguage</name></member>
+    <member refid="class_project_1ae24b0b9cb3d2e3765f9f0cd3fba553bc" kind="function"><name>GetName</name></member>
+    <member refid="class_project_1a094623413239bd7a66234f3fe7533375" kind="function"><name>GetBuild</name></member>
+    <member refid="class_project_1a26379b784bf6a28ab1847547fc9911f3" kind="function"><name>GetFiles</name></member>
+    <member refid="class_project_1a290732e75b1d3b1dc35622cc13fd54aa" kind="function"><name>GetEntities</name></member>
+    <member refid="class_project_1a199f420638d3ea003604e96e8b8730c9" kind="function"><name>GetMetrics</name></member>
+  </compound>
+  <compound refid="class_reference" kind="class"><name>Reference</name>
+    <member refid="class_reference_1aeeb9e76d54083b83d54470bbaa868bc1" kind="variable"><name>_sourceEntityId</name></member>
+    <member refid="class_reference_1a2b340b23387ad398e7e07ff607ab66b5" kind="variable"><name>_sourceEntityName</name></member>
+    <member refid="class_reference_1a5f54bd7a6dbb33fee5ea5f6e37522fc0" kind="variable"><name>_sourceEntityKindName</name></member>
+    <member refid="class_reference_1a5adb20d2e25b8ad71628f705c5ac93d4" kind="variable"><name>_targetEntityId</name></member>
+    <member refid="class_reference_1ac23fc03f386f2e02865d3ba272b9dded" kind="variable"><name>_targetEntityName</name></member>
+    <member refid="class_reference_1a1c21fb21e45e60702c5b77912e48b0c2" kind="variable"><name>_targetEntityKindName</name></member>
+    <member refid="class_reference_1a0be0163fcbd381727f051b3032efa475" kind="variable"><name>_kind</name></member>
+    <member refid="class_reference_1a69dced8abe9bb6a65091e404e44e60e4" kind="variable"><name>_file</name></member>
+    <member refid="class_reference_1ab705faeaeb3befa7b9c5c2c874475ec4" kind="variable"><name>_line</name></member>
+    <member refid="class_reference_1ae78c936a9a75b2ce659a302c8b302d4e" kind="variable"><name>_column</name></member>
+    <member refid="class_reference_1aaf459b9ae002ebd0bb7b6496b01415cb" kind="variable"><name>_kindText</name></member>
+    <member refid="class_reference_1a3b0818e0c6e464cdba937ba2be9ec66b" kind="function"><name>Reference</name></member>
+    <member refid="class_reference_1a40d21c5f6f98084f8badfcd481773e93" kind="function"><name>~Reference</name></member>
+    <member refid="class_reference_1a6a299de01b0f57280e467981d15d2bde" kind="function"><name>GetSourceEntityId</name></member>
+    <member refid="class_reference_1a547f604b517c9e7f85b4d705f869d53a" kind="function"><name>GetSourceEntityName</name></member>
+    <member refid="class_reference_1ad806730e173c261f99d73790538759e6" kind="function"><name>GetSourceEntityKindName</name></member>
+    <member refid="class_reference_1a503d036b6570805a393cb7c7ca58bfc3" kind="function"><name>GetTargetEntityId</name></member>
+    <member refid="class_reference_1a252d676b8cf9095c2e7f9b694d8d5e94" kind="function"><name>GetTargetEntityName</name></member>
+    <member refid="class_reference_1a24a3b77aa8afbcc57625ef91b1c19113" kind="function"><name>GetTargetEntityKindName</name></member>
+    <member refid="class_reference_1a67363cd82c08195a5ed30543f5d54163" kind="function"><name>GetKind</name></member>
+    <member refid="class_reference_1aa6aa807e9ab642f507048194ba0d403c" kind="function"><name>GetFile</name></member>
+    <member refid="class_reference_1a667be45cb23a884f43b46870279fa602" kind="function"><name>GetLine</name></member>
+    <member refid="class_reference_1a454953017b01a8dee49722622c84a654" kind="function"><name>GetColumn</name></member>
+    <member refid="class_reference_1a87aa3fbbe7caa9e65ff42bdfbdeb2336" kind="function"><name>GetKindText</name></member>
+  </compound>
+  <compound refid="class_reference_kinds_parser" kind="class"><name>ReferenceKindsParser</name>
+    <member refid="class_reference_kinds_parser_1aa3e13ac0b7cd5f08bfcbddb462d27a00" kind="variable"><name>__referencKind</name></member>
+    <member refid="class_reference_kinds_parser_1a57a56feecad525cc0eb3ee0dd6aa8b07" kind="function"><name>ReferenceKindsParser</name></member>
+    <member refid="class_reference_kinds_parser_1a8dc888d87f5213e8d0ef69e5ed45472e" kind="function"><name>~ReferenceKindsParser</name></member>
+    <member refid="class_reference_kinds_parser_1a8a3475ec55d1ddba5ab7318e7fe3ad1f" kind="function"><name>ParseCppKinds</name></member>
+    <member refid="class_reference_kinds_parser_1ab77f1bbb2544e51df12181027de0176b" kind="function"><name>ParseCSharpKinds</name></member>
+    <member refid="class_reference_kinds_parser_1a51ba6ebd08ca14f0fa19f566a5901a9b" kind="function"><name>ParseJavaKinds</name></member>
+  </compound>
+  <compound refid="class_string_comparer" kind="class"><name>StringComparer</name>
+    <member refid="class_string_comparer_1a1cbd1b46fbffe74f385fe311de0a87e8" kind="variable"><name>_text</name></member>
+    <member refid="class_string_comparer_1a276a1b6f0317e415d65d8b2b3f0566fa" kind="function"><name>StringComparer</name></member>
+    <member refid="class_string_comparer_1a40d21d267adfedc7a636273979f635b1" kind="function"><name>~StringComparer</name></member>
+    <member refid="class_string_comparer_1a1145a535df34e554742a6358e401269a" kind="function"><name>ContainsText</name></member>
+  </compound>
+  <compound refid="class_util" kind="class"><name>Util</name>
+    <member refid="class_util_1a58d7917635be401cbf98131bbe5019ed" kind="function"><name>GetLanguage</name></member>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="_entity_8cpp" kind="file"><name>Entity.cpp</name>
+  </compound>
+  <compound refid="_entity_8h" kind="file"><name>Entity.h</name>
+  </compound>
+  <compound refid="_entity_kind_8h" kind="file"><name>EntityKind.h</name>
+    <member refid="_entity_kind_8h_1ad90c5929a39651126870429e8f6689b3" kind="enum"><name>EntityKind</name></member>
+    <member refid="_entity_kind_8h_1ad90c5929a39651126870429e8f6689b3ae01806ab05fd9892d3c793dc48e9e20f" kind="enumvalue"><name>HeaderFile</name></member>
+    <member refid="_entity_kind_8h_1ad90c5929a39651126870429e8f6689b3a58a9f1c463db1b701fe3cc29f7dffae6" kind="enumvalue"><name>ImplementationFile</name></member>
+    <member refid="_entity_kind_8h_1ad90c5929a39651126870429e8f6689b3a2a0fd84a10cb743703f2f8986a7c838f" kind="enumvalue"><name>Class</name></member>
+    <member refid="_entity_kind_8h_1ad90c5929a39651126870429e8f6689b3a3db9de4a8a63c1d91ba7fbd8d9b9b131" kind="enumvalue"><name>Interface</name></member>
+    <member refid="_entity_kind_8h_1ad90c5929a39651126870429e8f6689b3a763a932e166ac85a6d2d1606e8649993" kind="enumvalue"><name>Struct</name></member>
+    <member refid="_entity_kind_8h_1ad90c5929a39651126870429e8f6689b3a15dfdbfcfc62a618920124c6cd0cdd78" kind="enumvalue"><name>Enum</name></member>
+    <member refid="_entity_kind_8h_1ad90c5929a39651126870429e8f6689b3a7c28160675f07458236b323ef7ad46fc" kind="enumvalue"><name>Attribute</name></member>
+    <member refid="_entity_kind_8h_1ad90c5929a39651126870429e8f6689b3af594f020b9d5eff2ec0eb42356898123" kind="enumvalue"><name>Function</name></member>
+    <member refid="_entity_kind_8h_1ad90c5929a39651126870429e8f6689b3ab9a4c44e80a41420a064d301e264870d" kind="enumvalue"><name>Parameter</name></member>
+    <member refid="_entity_kind_8h_1ad90c5929a39651126870429e8f6689b3adb2621a2b268575c1fb091185d2b5e62" kind="enumvalue"><name>OtherEntityKind</name></member>
+  </compound>
+  <compound refid="_entity_kind_parser_8cpp" kind="file"><name>EntityKindParser.cpp</name>
+  </compound>
+  <compound refid="_entity_kind_parser_8h" kind="file"><name>EntityKindParser.h</name>
+  </compound>
+  <compound refid="_language_8h" kind="file"><name>Language.h</name>
+    <member refid="_language_8h_1a315ca917ad583797f709ea477dd28705" kind="enum"><name>Language</name></member>
+    <member refid="_language_8h_1a315ca917ad583797f709ea477dd28705a132ab0bcfc4f9548c165dccd247a2059" kind="enumvalue"><name>Java</name></member>
+    <member refid="_language_8h_1a315ca917ad583797f709ea477dd28705a83c2b51600120fed49d6a5816e5764dc" kind="enumvalue"><name>Cpp</name></member>
+    <member refid="_language_8h_1a315ca917ad583797f709ea477dd28705aa9ff5a0882d69f3b7429e8b316e99d35" kind="enumvalue"><name>CSharp</name></member>
+    <member refid="_language_8h_1a315ca917ad583797f709ea477dd28705ab83b80928df2fc2319916fc4e2b7e728" kind="enumvalue"><name>OtherLanguage</name></member>
+  </compound>
+  <compound refid="_main_8cpp" kind="file"><name>Main.cpp</name>
+    <member refid="_main_8cpp_1a27cb66f656b1603a505b5a4480664e04" kind="function"><name>ShowError</name></member>
+    <member refid="_main_8cpp_1aef4d43768fe91331e184a61d4da4e430" kind="function"><name>ListEntityKinds</name></member>
+    <member refid="_main_8cpp_1a0d569edf93aa2cd49a2ac594838ecbda" kind="function"><name>ListReferenceKinds</name></member>
+    <member refid="_main_8cpp_1aa73e8fe4ed388c6abb0377544b2efb18" kind="function"><name>ListProjectMetrics</name></member>
+    <member refid="_main_8cpp_1abe007ebab99184f7888e00f93af84799" kind="function"><name>ListEntities</name></member>
+    <member refid="_main_8cpp_1a0ddf1224851353fc92bfbff6f499fa97" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="_metric_8cpp" kind="file"><name>Metric.cpp</name>
+  </compound>
+  <compound refid="_metric_8h" kind="file"><name>Metric.h</name>
+  </compound>
+  <compound refid="_project_8cpp" kind="file"><name>Project.cpp</name>
+  </compound>
+  <compound refid="_project_8h" kind="file"><name>Project.h</name>
+  </compound>
+  <compound refid="_reference_8cpp" kind="file"><name>Reference.cpp</name>
+  </compound>
+  <compound refid="_reference_8h" kind="file"><name>Reference.h</name>
+  </compound>
+  <compound refid="_reference_kind_8h" kind="file"><name>ReferenceKind.h</name>
+    <member refid="_reference_kind_8h_1ab67ef02b75c3226cfe0b2791e2b48b06" kind="enum"><name>ReferenceKind</name></member>
+    <member refid="_reference_kind_8h_1ab67ef02b75c3226cfe0b2791e2b48b06a62ed2bd5e0960e0482ea22c6e7e421de" kind="enumvalue"><name>Include</name></member>
+    <member refid="_reference_kind_8h_1ab67ef02b75c3226cfe0b2791e2b48b06a59b9abc46faffa225d20abc5e5252417" kind="enumvalue"><name>Call</name></member>
+    <member refid="_reference_kind_8h_1ab67ef02b75c3226cfe0b2791e2b48b06a9bf86f02d1361a1b06c3dbf0069b470e" kind="enumvalue"><name>Use</name></member>
+    <member refid="_reference_kind_8h_1ab67ef02b75c3226cfe0b2791e2b48b06ae8c0f315d6edc5d36e97a1b5b0bf45de" kind="enumvalue"><name>BaseClass</name></member>
+    <member refid="_reference_kind_8h_1ab67ef02b75c3226cfe0b2791e2b48b06a6529389ce1aab85b07ee6f0a6cce8720" kind="enumvalue"><name>OtherReferenceKind</name></member>
+  </compound>
+  <compound refid="_reference_kinds_parser_8cpp" kind="file"><name>ReferenceKindsParser.cpp</name>
+  </compound>
+  <compound refid="_reference_kinds_parser_8h" kind="file"><name>ReferenceKindsParser.h</name>
+  </compound>
+  <compound refid="_scope_8h" kind="file"><name>Scope.h</name>
+    <member refid="_scope_8h_1aaecc53892786f2fa11e682f633af84c6" kind="enum"><name>Scope</name></member>
+    <member refid="_scope_8h_1aaecc53892786f2fa11e682f633af84c6a03ddcda8467f404189c984dc13409aa8" kind="enumvalue"><name>Global</name></member>
+    <member refid="_scope_8h_1aaecc53892786f2fa11e682f633af84c6a2d47e20e63deb55d32228fde32f6b513" kind="enumvalue"><name>Public</name></member>
+    <member refid="_scope_8h_1aaecc53892786f2fa11e682f633af84c6a72414112a6a45ab0b4b73e8b83d0b0f5" kind="enumvalue"><name>Protected</name></member>
+    <member refid="_scope_8h_1aaecc53892786f2fa11e682f633af84c6aaa82165706f5dd0859648a09f1f64166" kind="enumvalue"><name>Private</name></member>
+    <member refid="_scope_8h_1aaecc53892786f2fa11e682f633af84c6aa992d66faf4c155dfd78ec168fc25f8a" kind="enumvalue"><name>Internal</name></member>
+    <member refid="_scope_8h_1aaecc53892786f2fa11e682f633af84c6a56310acf6f15f74f2d29751e3f9303a7" kind="enumvalue"><name>OtherScope</name></member>
+  </compound>
+  <compound refid="_string_comparer_8cpp" kind="file"><name>StringComparer.cpp</name>
+  </compound>
+  <compound refid="_string_comparer_8h" kind="file"><name>StringComparer.h</name>
+  </compound>
+  <compound refid="_util_8cpp" kind="file"><name>Util.cpp</name>
+  </compound>
+  <compound refid="_util_8h" kind="file"><name>Util.h</name>
+  </compound>
+  <compound refid="dir_d9541b16d830c2a4bf2ff96e66811cc2" kind="dir"><name>C:/Github/UnderstandApi/CApiDemo</name>
+  </compound>
+  <compound refid="dir_051a99a96c21a4d5378d0c27d926d01f" kind="dir"><name>C:/Github/UnderstandApi</name>
+  </compound>
+</doxygenindex>

@@ -1,0 +1,154 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="class_entity_kind_parser" kind="class" language="C++" prot="public">
+    <compoundname>EntityKindParser</compoundname>
+    <includes refid="_entity_kind_parser_8h" local="no">EntityKindParser.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_entity_kind_parser_1aa1f75c6015892a4e665b9040d604e191" prot="private" static="no" mutable="no">
+        <type><ref refid="_scope_8h_1aaecc53892786f2fa11e682f633af84c6" kindref="member">Scope</ref></type>
+        <definition>Scope EntityKindParser::_scope</definition>
+        <argsstring></argsstring>
+        <name>_scope</name>
+        <qualifiedname>EntityKindParser::_scope</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Github/UnderstandApi/CApiDemo/EntityKindParser.h" line="13" column="7" bodyfile="C:/Github/UnderstandApi/CApiDemo/EntityKindParser.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_entity_kind_parser_1a75a0905f6cdc29a60cadd4667e3facf8" prot="private" static="no" mutable="no">
+        <type><ref refid="_entity_kind_8h_1ad90c5929a39651126870429e8f6689b3" kindref="member">EntityKind</ref></type>
+        <definition>EntityKind EntityKindParser::_entityKind</definition>
+        <argsstring></argsstring>
+        <name>_entityKind</name>
+        <qualifiedname>EntityKindParser::_entityKind</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Github/UnderstandApi/CApiDemo/EntityKindParser.h" line="14" column="12" bodyfile="C:/Github/UnderstandApi/CApiDemo/EntityKindParser.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_entity_kind_parser_1a62766700be158ea0c392d3c4c3f35925" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>EntityKindParser::EntityKindParser</definition>
+        <argsstring>(string kind, UdbLanguage udbLanguage)</argsstring>
+        <name>EntityKindParser</name>
+        <qualifiedname>EntityKindParser::EntityKindParser</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>kind</declname>
+        </param>
+        <param>
+          <type>UdbLanguage</type>
+          <declname>udbLanguage</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Github/UnderstandApi/CApiDemo/EntityKindParser.h" line="16" column="1" bodyfile="C:/Github/UnderstandApi/CApiDemo/EntityKindParser.cpp" bodystart="4" bodyend="20"/>
+        <references refid="class_entity_kind_parser_1a36b6ac1014738b1d449b6c3df4a1c707" compoundref="_entity_kind_parser_8cpp" startline="26" endline="391">ParseCppKinds</references>
+        <references refid="class_entity_kind_parser_1ab392873bd1f81b965282c0afed717e12" compoundref="_entity_kind_parser_8cpp" startline="393" endline="703">ParseCSharpKinds</references>
+        <references refid="class_entity_kind_parser_1abcfcdff1592d68b972430a5a5838c2f7" compoundref="_entity_kind_parser_8cpp" startline="705" endline="875">ParseJavaKinds</references>
+      </memberdef>
+      <memberdef kind="function" id="class_entity_kind_parser_1aff58fdab06fd13c1c6a1d1c9278ffd7f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>EntityKindParser::~EntityKindParser</definition>
+        <argsstring>()</argsstring>
+        <name>~EntityKindParser</name>
+        <qualifiedname>EntityKindParser::~EntityKindParser</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Github/UnderstandApi/CApiDemo/EntityKindParser.h" line="17" column="1" bodyfile="C:/Github/UnderstandApi/CApiDemo/EntityKindParser.cpp" bodystart="22" bodyend="24"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_entity_kind_parser_1a36b6ac1014738b1d449b6c3df4a1c707" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EntityKindParser::ParseCppKinds</definition>
+        <argsstring>(string kind)</argsstring>
+        <name>ParseCppKinds</name>
+        <qualifiedname>EntityKindParser::ParseCppKinds</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>kind</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Github/UnderstandApi/CApiDemo/EntityKindParser.h" line="19" column="6" bodyfile="C:/Github/UnderstandApi/CApiDemo/EntityKindParser.cpp" bodystart="26" bodyend="391"/>
+        <references refid="class_string_comparer_1a1145a535df34e554742a6358e401269a" compoundref="_string_comparer_8cpp" startline="14" endline="17">StringComparer::ContainsText</references>
+        <referencedby refid="class_entity_kind_parser_1a62766700be158ea0c392d3c4c3f35925" compoundref="_entity_kind_parser_8cpp" startline="4" endline="20">EntityKindParser</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_entity_kind_parser_1ab392873bd1f81b965282c0afed717e12" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EntityKindParser::ParseCSharpKinds</definition>
+        <argsstring>(string kind)</argsstring>
+        <name>ParseCSharpKinds</name>
+        <qualifiedname>EntityKindParser::ParseCSharpKinds</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>kind</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Github/UnderstandApi/CApiDemo/EntityKindParser.h" line="20" column="6" bodyfile="C:/Github/UnderstandApi/CApiDemo/EntityKindParser.cpp" bodystart="393" bodyend="703"/>
+        <references refid="class_string_comparer_1a1145a535df34e554742a6358e401269a" compoundref="_string_comparer_8cpp" startline="14" endline="17">StringComparer::ContainsText</references>
+        <referencedby refid="class_entity_kind_parser_1a62766700be158ea0c392d3c4c3f35925" compoundref="_entity_kind_parser_8cpp" startline="4" endline="20">EntityKindParser</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_entity_kind_parser_1abcfcdff1592d68b972430a5a5838c2f7" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EntityKindParser::ParseJavaKinds</definition>
+        <argsstring>(string kind)</argsstring>
+        <name>ParseJavaKinds</name>
+        <qualifiedname>EntityKindParser::ParseJavaKinds</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>kind</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Github/UnderstandApi/CApiDemo/EntityKindParser.h" line="21" column="6" bodyfile="C:/Github/UnderstandApi/CApiDemo/EntityKindParser.cpp" bodystart="705" bodyend="875"/>
+        <references refid="class_string_comparer_1a1145a535df34e554742a6358e401269a" compoundref="_string_comparer_8cpp" startline="14" endline="17">StringComparer::ContainsText</references>
+        <referencedby refid="class_entity_kind_parser_1a62766700be158ea0c392d3c4c3f35925" compoundref="_entity_kind_parser_8cpp" startline="4" endline="20">EntityKindParser</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Github/UnderstandApi/CApiDemo/EntityKindParser.h" line="10" column="1" bodyfile="C:/Github/UnderstandApi/CApiDemo/EntityKindParser.h" bodystart="11" bodyend="22"/>
+    <listofallmembers>
+      <member refid="class_entity_kind_parser_1a75a0905f6cdc29a60cadd4667e3facf8" prot="private" virt="non-virtual"><scope>EntityKindParser</scope><name>_entityKind</name></member>
+      <member refid="class_entity_kind_parser_1aa1f75c6015892a4e665b9040d604e191" prot="private" virt="non-virtual"><scope>EntityKindParser</scope><name>_scope</name></member>
+      <member refid="class_entity_kind_parser_1a62766700be158ea0c392d3c4c3f35925" prot="public" virt="non-virtual"><scope>EntityKindParser</scope><name>EntityKindParser</name></member>
+      <member refid="class_entity_kind_parser_1a36b6ac1014738b1d449b6c3df4a1c707" prot="private" virt="non-virtual"><scope>EntityKindParser</scope><name>ParseCppKinds</name></member>
+      <member refid="class_entity_kind_parser_1ab392873bd1f81b965282c0afed717e12" prot="private" virt="non-virtual"><scope>EntityKindParser</scope><name>ParseCSharpKinds</name></member>
+      <member refid="class_entity_kind_parser_1abcfcdff1592d68b972430a5a5838c2f7" prot="private" virt="non-virtual"><scope>EntityKindParser</scope><name>ParseJavaKinds</name></member>
+      <member refid="class_entity_kind_parser_1aff58fdab06fd13c1c6a1d1c9278ffd7f" prot="public" virt="non-virtual"><scope>EntityKindParser</scope><name>~EntityKindParser</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

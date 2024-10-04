@@ -1,0 +1,229 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="class_project" kind="class" language="C++" prot="public">
+    <compoundname>Project</compoundname>
+    <includes refid="_project_8h" local="no">Project.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_project_1a60fe18d197de100af3a94bd5bb9ce1c3" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Project::_filename</definition>
+        <argsstring></argsstring>
+        <name>_filename</name>
+        <qualifiedname>Project::_filename</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Github/UnderstandApi/CApiDemo/Project.h" line="16" column="8" bodyfile="C:/Github/UnderstandApi/CApiDemo/Project.h" bodystart="16" bodyend="-1"/>
+        <referencedby refid="class_project_1a45bfe3647ba3320b3f67f4706e68aef5" compoundref="_project_8cpp" startline="17" endline="39">Open</referencedby>
+        <referencedby refid="class_project_1af14bcee15a23dfc3b1dc50272ebad7db" compoundref="_project_8cpp" startline="7" endline="11">Project</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_project_1a66d52da1345d7bc580990231635ad97b" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Project::_isOpen</definition>
+        <argsstring></argsstring>
+        <name>_isOpen</name>
+        <qualifiedname>Project::_isOpen</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Github/UnderstandApi/CApiDemo/Project.h" line="17" column="6" bodyfile="C:/Github/UnderstandApi/CApiDemo/Project.h" bodystart="17" bodyend="-1"/>
+        <referencedby refid="class_project_1abfef9969a7e24452b20ebfe2d025df1e" compoundref="_project_8cpp" startline="41" endline="48">Close</referencedby>
+        <referencedby refid="class_project_1a094623413239bd7a66234f3fe7533375" compoundref="_project_8cpp" startline="64" endline="69">GetBuild</referencedby>
+        <referencedby refid="class_project_1a290732e75b1d3b1dc35622cc13fd54aa" compoundref="_project_8cpp" startline="91" endline="109">GetEntities</referencedby>
+        <referencedby refid="class_project_1a26379b784bf6a28ab1847547fc9911f3" compoundref="_project_8cpp" startline="71" endline="89">GetFiles</referencedby>
+        <referencedby refid="class_project_1ac30a9db51b66b06d4145429f5017ab4f" compoundref="_project_8cpp" startline="50" endline="55">GetLanguage</referencedby>
+        <referencedby refid="class_project_1a199f420638d3ea003604e96e8b8730c9" compoundref="_project_8cpp" startline="111" endline="128">GetMetrics</referencedby>
+        <referencedby refid="class_project_1ae24b0b9cb3d2e3765f9f0cd3fba553bc" compoundref="_project_8cpp" startline="57" endline="62">GetName</referencedby>
+        <referencedby refid="class_project_1a45bfe3647ba3320b3f67f4706e68aef5" compoundref="_project_8cpp" startline="17" endline="39">Open</referencedby>
+        <referencedby refid="class_project_1af14bcee15a23dfc3b1dc50272ebad7db" compoundref="_project_8cpp" startline="7" endline="11">Project</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_project_1af14bcee15a23dfc3b1dc50272ebad7db" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Project::Project</definition>
+        <argsstring>(string filename)</argsstring>
+        <name>Project</name>
+        <qualifiedname>Project::Project</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>filename</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Github/UnderstandApi/CApiDemo/Project.h" line="19" column="1" bodyfile="C:/Github/UnderstandApi/CApiDemo/Project.cpp" bodystart="7" bodyend="11"/>
+        <references refid="class_project_1a60fe18d197de100af3a94bd5bb9ce1c3" compoundref="_project_8h" startline="16">_filename</references>
+        <references refid="class_project_1a66d52da1345d7bc580990231635ad97b" compoundref="_project_8h" startline="17">_isOpen</references>
+      </memberdef>
+      <memberdef kind="function" id="class_project_1ad165d61b76ee86ee9c27fd987a2a7b9e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Project::~Project</definition>
+        <argsstring>()</argsstring>
+        <name>~Project</name>
+        <qualifiedname>Project::~Project</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Github/UnderstandApi/CApiDemo/Project.h" line="20" column="1" bodyfile="C:/Github/UnderstandApi/CApiDemo/Project.cpp" bodystart="13" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="class_project_1a45bfe3647ba3320b3f67f4706e68aef5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Project::Open</definition>
+        <argsstring>()</argsstring>
+        <name>Open</name>
+        <qualifiedname>Project::Open</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Github/UnderstandApi/CApiDemo/Project.h" line="22" column="6" bodyfile="C:/Github/UnderstandApi/CApiDemo/Project.cpp" bodystart="17" bodyend="39"/>
+        <references refid="class_project_1a60fe18d197de100af3a94bd5bb9ce1c3" compoundref="_project_8h" startline="16">_filename</references>
+        <references refid="class_project_1a66d52da1345d7bc580990231635ad97b" compoundref="_project_8h" startline="17">_isOpen</references>
+        <referencedby refid="_main_8cpp_1a0ddf1224851353fc92bfbff6f499fa97" compoundref="_main_8cpp" startline="160" endline="207">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_project_1abfef9969a7e24452b20ebfe2d025df1e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Project::Close</definition>
+        <argsstring>()</argsstring>
+        <name>Close</name>
+        <qualifiedname>Project::Close</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Github/UnderstandApi/CApiDemo/Project.h" line="23" column="6" bodyfile="C:/Github/UnderstandApi/CApiDemo/Project.cpp" bodystart="41" bodyend="48"/>
+        <references refid="class_project_1a66d52da1345d7bc580990231635ad97b" compoundref="_project_8h" startline="17">_isOpen</references>
+        <referencedby refid="_main_8cpp_1a0ddf1224851353fc92bfbff6f499fa97" compoundref="_main_8cpp" startline="160" endline="207">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_project_1ac30a9db51b66b06d4145429f5017ab4f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="_language_8h_1a315ca917ad583797f709ea477dd28705" kindref="member">Language</ref></type>
+        <definition>Language Project::GetLanguage</definition>
+        <argsstring>() const</argsstring>
+        <name>GetLanguage</name>
+        <qualifiedname>Project::GetLanguage</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Github/UnderstandApi/CApiDemo/Project.h" line="25" column="10" bodyfile="C:/Github/UnderstandApi/CApiDemo/Project.cpp" bodystart="50" bodyend="55"/>
+        <references refid="class_project_1a66d52da1345d7bc580990231635ad97b" compoundref="_project_8h" startline="17">_isOpen</references>
+        <references refid="class_util_1a58d7917635be401cbf98131bbe5019ed" compoundref="_util_8cpp" startline="4" endline="31">Util::GetLanguage</references>
+      </memberdef>
+      <memberdef kind="function" id="class_project_1ae24b0b9cb3d2e3765f9f0cd3fba553bc" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>string Project::GetName</definition>
+        <argsstring>() const</argsstring>
+        <name>GetName</name>
+        <qualifiedname>Project::GetName</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Github/UnderstandApi/CApiDemo/Project.h" line="26" column="8" bodyfile="C:/Github/UnderstandApi/CApiDemo/Project.cpp" bodystart="57" bodyend="62"/>
+        <references refid="class_project_1a66d52da1345d7bc580990231635ad97b" compoundref="_project_8h" startline="17">_isOpen</references>
+      </memberdef>
+      <memberdef kind="function" id="class_project_1a094623413239bd7a66234f3fe7533375" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>string Project::GetBuild</definition>
+        <argsstring>() const</argsstring>
+        <name>GetBuild</name>
+        <qualifiedname>Project::GetBuild</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Github/UnderstandApi/CApiDemo/Project.h" line="27" column="8" bodyfile="C:/Github/UnderstandApi/CApiDemo/Project.cpp" bodystart="64" bodyend="69"/>
+        <references refid="class_project_1a66d52da1345d7bc580990231635ad97b" compoundref="_project_8h" startline="17">_isOpen</references>
+      </memberdef>
+      <memberdef kind="function" id="class_project_1a26379b784bf6a28ab1847547fc9911f3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>list&lt; <ref refid="class_entity" kindref="compound">Entity</ref> * &gt;</type>
+        <definition>list&lt; Entity * &gt; Project::GetFiles</definition>
+        <argsstring>() const</argsstring>
+        <name>GetFiles</name>
+        <qualifiedname>Project::GetFiles</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Github/UnderstandApi/CApiDemo/Project.h" line="28" column="6" bodyfile="C:/Github/UnderstandApi/CApiDemo/Project.cpp" bodystart="71" bodyend="89"/>
+        <references refid="class_project_1a66d52da1345d7bc580990231635ad97b" compoundref="_project_8h" startline="17">_isOpen</references>
+      </memberdef>
+      <memberdef kind="function" id="class_project_1a290732e75b1d3b1dc35622cc13fd54aa" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>list&lt; <ref refid="class_entity" kindref="compound">Entity</ref> * &gt;</type>
+        <definition>list&lt; Entity * &gt; Project::GetEntities</definition>
+        <argsstring>() const</argsstring>
+        <name>GetEntities</name>
+        <qualifiedname>Project::GetEntities</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Github/UnderstandApi/CApiDemo/Project.h" line="29" column="6" bodyfile="C:/Github/UnderstandApi/CApiDemo/Project.cpp" bodystart="91" bodyend="109"/>
+        <references refid="class_project_1a66d52da1345d7bc580990231635ad97b" compoundref="_project_8h" startline="17">_isOpen</references>
+        <referencedby refid="_main_8cpp_1abe007ebab99184f7888e00f93af84799" compoundref="_main_8cpp" startline="98" endline="158">ListEntities</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_project_1a199f420638d3ea003604e96e8b8730c9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>list&lt; <ref refid="class_metric" kindref="compound">Metric</ref> * &gt;</type>
+        <definition>list&lt; Metric * &gt; Project::GetMetrics</definition>
+        <argsstring>() const</argsstring>
+        <name>GetMetrics</name>
+        <qualifiedname>Project::GetMetrics</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Github/UnderstandApi/CApiDemo/Project.h" line="30" column="6" bodyfile="C:/Github/UnderstandApi/CApiDemo/Project.cpp" bodystart="111" bodyend="128"/>
+        <references refid="class_project_1a66d52da1345d7bc580990231635ad97b" compoundref="_project_8h" startline="17">_isOpen</references>
+        <referencedby refid="_main_8cpp_1aa73e8fe4ed388c6abb0377544b2efb18" compoundref="_main_8cpp" startline="72" endline="96">ListProjectMetrics</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Github/UnderstandApi/CApiDemo/Project.h" line="13" column="1" bodyfile="C:/Github/UnderstandApi/CApiDemo/Project.h" bodystart="14" bodyend="31"/>
+    <listofallmembers>
+      <member refid="class_project_1a60fe18d197de100af3a94bd5bb9ce1c3" prot="private" virt="non-virtual"><scope>Project</scope><name>_filename</name></member>
+      <member refid="class_project_1a66d52da1345d7bc580990231635ad97b" prot="private" virt="non-virtual"><scope>Project</scope><name>_isOpen</name></member>
+      <member refid="class_project_1abfef9969a7e24452b20ebfe2d025df1e" prot="public" virt="non-virtual"><scope>Project</scope><name>Close</name></member>
+      <member refid="class_project_1a094623413239bd7a66234f3fe7533375" prot="public" virt="non-virtual"><scope>Project</scope><name>GetBuild</name></member>
+      <member refid="class_project_1a290732e75b1d3b1dc35622cc13fd54aa" prot="public" virt="non-virtual"><scope>Project</scope><name>GetEntities</name></member>
+      <member refid="class_project_1a26379b784bf6a28ab1847547fc9911f3" prot="public" virt="non-virtual"><scope>Project</scope><name>GetFiles</name></member>
+      <member refid="class_project_1ac30a9db51b66b06d4145429f5017ab4f" prot="public" virt="non-virtual"><scope>Project</scope><name>GetLanguage</name></member>
+      <member refid="class_project_1a199f420638d3ea003604e96e8b8730c9" prot="public" virt="non-virtual"><scope>Project</scope><name>GetMetrics</name></member>
+      <member refid="class_project_1ae24b0b9cb3d2e3765f9f0cd3fba553bc" prot="public" virt="non-virtual"><scope>Project</scope><name>GetName</name></member>
+      <member refid="class_project_1a45bfe3647ba3320b3f67f4706e68aef5" prot="public" virt="non-virtual"><scope>Project</scope><name>Open</name></member>
+      <member refid="class_project_1af14bcee15a23dfc3b1dc50272ebad7db" prot="public" virt="non-virtual"><scope>Project</scope><name>Project</name></member>
+      <member refid="class_project_1ad165d61b76ee86ee9c27fd987a2a7b9e" prot="public" virt="non-virtual"><scope>Project</scope><name>~Project</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

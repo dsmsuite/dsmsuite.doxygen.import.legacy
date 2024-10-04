@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="class_string_comparer" kind="class" language="C++" prot="public">
+    <compoundname>StringComparer</compoundname>
+    <includes refid="_string_comparer_8h" local="no">StringComparer.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_string_comparer_1a1cbd1b46fbffe74f385fe311de0a87e8" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string StringComparer::_text</definition>
+        <argsstring></argsstring>
+        <name>_text</name>
+        <qualifiedname>StringComparer::_text</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Github/UnderstandApi/CApiDemo/StringComparer.h" line="10" column="8" bodyfile="C:/Github/UnderstandApi/CApiDemo/StringComparer.h" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_string_comparer_1a1145a535df34e554742a6358e401269a" compoundref="_string_comparer_8cpp" startline="14" endline="17">ContainsText</referencedby>
+        <referencedby refid="class_string_comparer_1a276a1b6f0317e415d65d8b2b3f0566fa" compoundref="_string_comparer_8cpp" startline="5" endline="8">StringComparer</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_string_comparer_1a276a1b6f0317e415d65d8b2b3f0566fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>StringComparer::StringComparer</definition>
+        <argsstring>(string text)</argsstring>
+        <name>StringComparer</name>
+        <qualifiedname>StringComparer::StringComparer</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>text</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Github/UnderstandApi/CApiDemo/StringComparer.h" line="12" column="1" bodyfile="C:/Github/UnderstandApi/CApiDemo/StringComparer.cpp" bodystart="5" bodyend="8"/>
+        <references refid="class_string_comparer_1a1cbd1b46fbffe74f385fe311de0a87e8" compoundref="_string_comparer_8h" startline="10">_text</references>
+      </memberdef>
+      <memberdef kind="function" id="class_string_comparer_1a40d21d267adfedc7a636273979f635b1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>StringComparer::~StringComparer</definition>
+        <argsstring>()</argsstring>
+        <name>~StringComparer</name>
+        <qualifiedname>StringComparer::~StringComparer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Github/UnderstandApi/CApiDemo/StringComparer.h" line="13" column="1" bodyfile="C:/Github/UnderstandApi/CApiDemo/StringComparer.cpp" bodystart="10" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="function" id="class_string_comparer_1a1145a535df34e554742a6358e401269a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool StringComparer::ContainsText</definition>
+        <argsstring>(string substring) const</argsstring>
+        <name>ContainsText</name>
+        <qualifiedname>StringComparer::ContainsText</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>substring</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Github/UnderstandApi/CApiDemo/StringComparer.h" line="15" column="6" bodyfile="C:/Github/UnderstandApi/CApiDemo/StringComparer.cpp" bodystart="14" bodyend="17"/>
+        <references refid="class_string_comparer_1a1cbd1b46fbffe74f385fe311de0a87e8" compoundref="_string_comparer_8h" startline="10">_text</references>
+        <referencedby refid="class_entity_kind_parser_1a36b6ac1014738b1d449b6c3df4a1c707" compoundref="_entity_kind_parser_8cpp" startline="26" endline="391">EntityKindParser::ParseCppKinds</referencedby>
+        <referencedby refid="class_reference_kinds_parser_1a8a3475ec55d1ddba5ab7318e7fe3ad1f" compoundref="_reference_kinds_parser_8cpp" startline="26" endline="151">ReferenceKindsParser::ParseCppKinds</referencedby>
+        <referencedby refid="class_entity_kind_parser_1ab392873bd1f81b965282c0afed717e12" compoundref="_entity_kind_parser_8cpp" startline="393" endline="703">EntityKindParser::ParseCSharpKinds</referencedby>
+        <referencedby refid="class_reference_kinds_parser_1ab77f1bbb2544e51df12181027de0176b" compoundref="_reference_kinds_parser_8cpp" startline="153" endline="210">ReferenceKindsParser::ParseCSharpKinds</referencedby>
+        <referencedby refid="class_entity_kind_parser_1abcfcdff1592d68b972430a5a5838c2f7" compoundref="_entity_kind_parser_8cpp" startline="705" endline="875">EntityKindParser::ParseJavaKinds</referencedby>
+        <referencedby refid="class_reference_kinds_parser_1a51ba6ebd08ca14f0fa19f566a5901a9b" compoundref="_reference_kinds_parser_8cpp" startline="212" endline="273">ReferenceKindsParser::ParseJavaKinds</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Github/UnderstandApi/CApiDemo/StringComparer.h" line="7" column="1" bodyfile="C:/Github/UnderstandApi/CApiDemo/StringComparer.h" bodystart="8" bodyend="16"/>
+    <listofallmembers>
+      <member refid="class_string_comparer_1a1cbd1b46fbffe74f385fe311de0a87e8" prot="private" virt="non-virtual"><scope>StringComparer</scope><name>_text</name></member>
+      <member refid="class_string_comparer_1a1145a535df34e554742a6358e401269a" prot="public" virt="non-virtual"><scope>StringComparer</scope><name>ContainsText</name></member>
+      <member refid="class_string_comparer_1a276a1b6f0317e415d65d8b2b3f0566fa" prot="public" virt="non-virtual"><scope>StringComparer</scope><name>StringComparer</name></member>
+      <member refid="class_string_comparer_1a40d21d267adfedc7a636273979f635b1" prot="public" virt="non-virtual"><scope>StringComparer</scope><name>~StringComparer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
