@@ -85,6 +85,18 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>StringComparer</label>
+        <link refid="class_string_comparer"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_text</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>string</label>
+      </node>
+    </collaborationgraph>
     <location file="C:/Github/UnderstandApi/CApiDemo/StringComparer.h" line="7" column="1" bodyfile="C:/Github/UnderstandApi/CApiDemo/StringComparer.h" bodystart="8" bodyend="16"/>
     <listofallmembers>
       <member refid="class_string_comparer_1a1cbd1b46fbffe74f385fe311de0a87e8" prot="private" virt="non-virtual"><scope>StringComparer</scope><name>_text</name></member>

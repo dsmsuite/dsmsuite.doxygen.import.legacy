@@ -210,6 +210,24 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>Project</label>
+        <link refid="class_project"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_filename</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>_isOpen</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>bool</label>
+      </node>
+      <node id="2">
+        <label>string</label>
+      </node>
+    </collaborationgraph>
     <location file="C:/Github/UnderstandApi/CApiDemo/Project.h" line="13" column="1" bodyfile="C:/Github/UnderstandApi/CApiDemo/Project.h" bodystart="14" bodyend="31"/>
     <listofallmembers>
       <member refid="class_project_1a60fe18d197de100af3a94bd5bb9ce1c3" prot="private" virt="non-virtual"><scope>Project</scope><name>_filename</name></member>

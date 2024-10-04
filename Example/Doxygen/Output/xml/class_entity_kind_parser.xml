@@ -140,6 +140,24 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
+    <collaborationgraph>
+      <node id="3">
+        <label>EntityKind</label>
+      </node>
+      <node id="1">
+        <label>EntityKindParser</label>
+        <link refid="class_entity_kind_parser"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_scope</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>_entityKind</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Scope</label>
+      </node>
+    </collaborationgraph>
     <location file="C:/Github/UnderstandApi/CApiDemo/EntityKindParser.h" line="10" column="1" bodyfile="C:/Github/UnderstandApi/CApiDemo/EntityKindParser.h" bodystart="11" bodyend="22"/>
     <listofallmembers>
       <member refid="class_entity_kind_parser_1a75a0905f6cdc29a60cadd4667e3facf8" prot="private" virt="non-virtual"><scope>EntityKindParser</scope><name>_entityKind</name></member>

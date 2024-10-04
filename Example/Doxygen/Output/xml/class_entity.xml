@@ -407,6 +407,58 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>Entity</label>
+        <link refid="class_entity"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_id</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>_comment</edgelabel>
+          <edgelabel>_kindText</edgelabel>
+          <edgelabel>_name</edgelabel>
+          <edgelabel>_namespace</edgelabel>
+          <edgelabel>_type</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>_scope</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>_kind</edgelabel>
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>_language</edgelabel>
+        </childnode>
+        <childnode refid="7" relation="usage">
+          <edgelabel>_references</edgelabel>
+        </childnode>
+        <childnode refid="8" relation="usage">
+          <edgelabel>_metrics</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>EntityKind</label>
+      </node>
+      <node id="6">
+        <label>Language</label>
+      </node>
+      <node id="4">
+        <label>Scope</label>
+      </node>
+      <node id="2">
+        <label>int</label>
+      </node>
+      <node id="8">
+        <label>list&lt; Metric * &gt;</label>
+      </node>
+      <node id="7">
+        <label>list&lt; Reference * &gt;</label>
+      </node>
+      <node id="3">
+        <label>string</label>
+      </node>
+    </collaborationgraph>
     <location file="C:/Github/UnderstandApi/CApiDemo/Entity.h" line="17" column="1" bodyfile="C:/Github/UnderstandApi/CApiDemo/Entity.h" bodystart="18" bodyend="46"/>
     <listofallmembers>
       <member refid="class_entity_1a236cbb64fe232a1b66ed57d72f35b394" prot="private" virt="non-virtual"><scope>Entity</scope><name>_comment</name></member>

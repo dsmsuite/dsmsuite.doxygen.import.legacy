@@ -126,6 +126,18 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>ReferenceKind</label>
+      </node>
+      <node id="1">
+        <label>ReferenceKindsParser</label>
+        <link refid="class_reference_kinds_parser"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>__referencKind</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
     <location file="C:/Github/UnderstandApi/CApiDemo/ReferenceKindsParser.h" line="11" column="1" bodyfile="C:/Github/UnderstandApi/CApiDemo/ReferenceKindsParser.h" bodystart="12" bodyend="21"/>
     <listofallmembers>
       <member refid="class_reference_kinds_parser_1aa3e13ac0b7cd5f08bfcbddb462d27a00" prot="private" virt="non-virtual"><scope>ReferenceKindsParser</scope><name>__referencKind</name></member>

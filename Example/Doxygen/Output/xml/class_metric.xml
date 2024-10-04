@@ -178,6 +178,31 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>Metric</label>
+        <link refid="class_metric"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_description</edgelabel>
+          <edgelabel>_name</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>_isInteger</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>_value</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>bool</label>
+      </node>
+      <node id="4">
+        <label>double</label>
+      </node>
+      <node id="2">
+        <label>string</label>
+      </node>
+    </collaborationgraph>
     <location file="C:/Github/UnderstandApi/CApiDemo/Metric.h" line="8" column="1" bodyfile="C:/Github/UnderstandApi/CApiDemo/Metric.h" bodystart="9" bodyend="23"/>
     <listofallmembers>
       <member refid="class_metric_1afdc4e83076950a09a5be681fd3d22676" prot="private" virt="non-virtual"><scope>Metric</scope><name>_description</name></member>

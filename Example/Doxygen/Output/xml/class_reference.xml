@@ -408,6 +408,38 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>Reference</label>
+        <link refid="class_reference"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_column</edgelabel>
+          <edgelabel>_line</edgelabel>
+          <edgelabel>_sourceEntityId</edgelabel>
+          <edgelabel>_targetEntityId</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>_file</edgelabel>
+          <edgelabel>_kindText</edgelabel>
+          <edgelabel>_sourceEntityKindName</edgelabel>
+          <edgelabel>_sourceEntityName</edgelabel>
+          <edgelabel>_targetEntityKindName</edgelabel>
+          <edgelabel>_targetEntityName</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>_kind</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>ReferenceKind</label>
+      </node>
+      <node id="2">
+        <label>int</label>
+      </node>
+      <node id="3">
+        <label>string</label>
+      </node>
+    </collaborationgraph>
     <location file="C:/Github/UnderstandApi/CApiDemo/Reference.h" line="12" column="1" bodyfile="C:/Github/UnderstandApi/CApiDemo/Reference.h" bodystart="13" bodyend="41"/>
     <listofallmembers>
       <member refid="class_reference_1ae78c936a9a75b2ce659a302c8b302d4e" prot="private" virt="non-virtual"><scope>Reference</scope><name>_column</name></member>
