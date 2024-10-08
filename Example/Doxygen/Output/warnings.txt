@@ -1,0 +1,3 @@
+warning: the dot tool could not be found as '1/dot.exe'
+error: Problems running htags. Check your installation
+error: USE_HTAGS is YES but htags(1) failed. 

@@ -2,15 +2,15 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
   <compounddef id="_scope_8h" kind="file" language="C++">
     <compoundname>Scope.h</compoundname>
-    <includedby refid="_entity_8h" local="yes">C:/Github/UnderstandApi/CApiDemo/Entity.h</includedby>
-    <includedby refid="_entity_kind_parser_8h" local="yes">C:/Github/UnderstandApi/CApiDemo/EntityKindParser.h</includedby>
+    <includedby refid="_entity_8h" local="yes">Entity.h</includedby>
+    <includedby refid="_entity_kind_parser_8h" local="yes">EntityKindParser.h</includedby>
     <invincdepgraph>
       <node id="3">
-        <label>C:/Github/UnderstandApi/CApiDemo/Entity.cpp</label>
+        <label>Entity.cpp</label>
         <link refid="_entity_8cpp"/>
       </node>
       <node id="2">
-        <label>C:/Github/UnderstandApi/CApiDemo/Entity.h</label>
+        <label>Entity.h</label>
         <link refid="_entity_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
@@ -22,29 +22,29 @@
         </childnode>
       </node>
       <node id="9">
-        <label>C:/Github/UnderstandApi/CApiDemo/EntityKindParser.cpp</label>
+        <label>EntityKindParser.cpp</label>
         <link refid="_entity_kind_parser_8cpp"/>
       </node>
       <node id="8">
-        <label>C:/Github/UnderstandApi/CApiDemo/EntityKindParser.h</label>
+        <label>EntityKindParser.h</label>
         <link refid="_entity_kind_parser_8h"/>
         <childnode refid="9" relation="include">
         </childnode>
       </node>
       <node id="4">
-        <label>C:/Github/UnderstandApi/CApiDemo/Main.cpp</label>
+        <label>Main.cpp</label>
         <link refid="_main_8cpp"/>
       </node>
       <node id="5">
-        <label>C:/Github/UnderstandApi/CApiDemo/Project.cpp</label>
+        <label>Project.cpp</label>
         <link refid="_project_8cpp"/>
       </node>
       <node id="7">
-        <label>C:/Github/UnderstandApi/CApiDemo/Reference.cpp</label>
+        <label>Reference.cpp</label>
         <link refid="_reference_8cpp"/>
       </node>
       <node id="6">
-        <label>C:/Github/UnderstandApi/CApiDemo/Reference.h</label>
+        <label>Reference.h</label>
         <link refid="_reference_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
@@ -54,7 +54,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>C:/Github/UnderstandApi/CApiDemo/Scope.h</label>
+        <label>Scope.h</label>
         <link refid="_scope_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -114,13 +114,13 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Github/UnderstandApi/CApiDemo/Scope.h" line="3" column="1" bodyfile="C:/Github/UnderstandApi/CApiDemo/Scope.h" bodystart="4" bodyend="11"/>
+        <location file="Scope.h" line="3" column="1" bodyfile="Scope.h" bodystart="4" bodyend="11"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="C:/Github/UnderstandApi/CApiDemo/Scope.h"/>
+    <location file="Scope.h"/>
   </compounddef>
 </doxygen>

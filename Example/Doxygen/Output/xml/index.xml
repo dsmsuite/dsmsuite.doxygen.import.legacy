@@ -2,104 +2,104 @@
 <doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.12.0" xml:lang="en-US">
   <compound refid="class_entity" kind="class"><name>Entity</name>
     <member refid="class_entity_1a726707b7b7ebb9d12983eee1be7c8e43" kind="variable"><name>_id</name></member>
-    <member refid="class_entity_1aeb0618ddf19879226a675c7c49d76592" kind="variable"><name>_namespace</name></member>
-    <member refid="class_entity_1a02f4b200b4132bc75b409502c3b91b53" kind="variable"><name>_name</name></member>
-    <member refid="class_entity_1affac726d66301459797e974165c4d364" kind="variable"><name>_type</name></member>
+    <member refid="class_entity_1a660ccfe49747dd3d805cb06beb189f25" kind="variable"><name>_namespace</name></member>
+    <member refid="class_entity_1a6c98936d25c3baeea5c1fad751c8d9c9" kind="variable"><name>_name</name></member>
+    <member refid="class_entity_1a4dec2d4bd03dfc266d77e7c501448341" kind="variable"><name>_type</name></member>
     <member refid="class_entity_1a66f6d2579cd8a276c9b25d607b5912e3" kind="variable"><name>_scope</name></member>
     <member refid="class_entity_1a0021e08f8490591ae2c8a773c85dcc56" kind="variable"><name>_kind</name></member>
     <member refid="class_entity_1aafb7f353b492e605bbb3f718744c439f" kind="variable"><name>_language</name></member>
-    <member refid="class_entity_1a2f3031c5b46e66fab9bfbf5c0ce784f9" kind="variable"><name>_references</name></member>
-    <member refid="class_entity_1a6993fac5da99e92d192545be5f43abb0" kind="variable"><name>_metrics</name></member>
-    <member refid="class_entity_1a236cbb64fe232a1b66ed57d72f35b394" kind="variable"><name>_comment</name></member>
-    <member refid="class_entity_1ad58d708108fd9ccfafe8a779622c2c2e" kind="variable"><name>_kindText</name></member>
+    <member refid="class_entity_1aede47e392729d19ba5cd6bd635a007a4" kind="variable"><name>_references</name></member>
+    <member refid="class_entity_1a43e6ccc2cb88cc7a32dd2466678e7bda" kind="variable"><name>_metrics</name></member>
+    <member refid="class_entity_1a3acd7bd8d792b22d925fd1675b417e34" kind="variable"><name>_comment</name></member>
+    <member refid="class_entity_1a5dfdb2c9f45fb2e84d38703637e60127" kind="variable"><name>_kindText</name></member>
     <member refid="class_entity_1a5a24d92e6422f27731740e39dfdd1342" kind="function"><name>Entity</name></member>
     <member refid="class_entity_1adf6d3f7cb1b2ba029b6b048a395cc8ae" kind="function"><name>~Entity</name></member>
     <member refid="class_entity_1a478be4b3bc1cc77e5fd92a7dda6689a4" kind="function"><name>GetId</name></member>
-    <member refid="class_entity_1ad75bc158939004ee5c85f0494c96f692" kind="function"><name>GetNamespace</name></member>
-    <member refid="class_entity_1a3e3ae0aea0c8609132f2e9d2918068f9" kind="function"><name>GetName</name></member>
-    <member refid="class_entity_1a833a9c5a17761143084f29a63be13fc2" kind="function"><name>GetType</name></member>
+    <member refid="class_entity_1a36c6875f48f907e403c045b129948b80" kind="function"><name>GetNamespace</name></member>
+    <member refid="class_entity_1a1d72f5003f9eed6edb81c17ff4f888cd" kind="function"><name>GetName</name></member>
+    <member refid="class_entity_1a906ca5c844298c0258bda83563f925a0" kind="function"><name>GetType</name></member>
     <member refid="class_entity_1a6f275046f7ea9c67f736359550a9c6df" kind="function"><name>GetScope</name></member>
     <member refid="class_entity_1aa1370a5c927421dca0f2df0913eabe96" kind="function"><name>GetKind</name></member>
     <member refid="class_entity_1a79c9488e06ea0e42216fc471dea05930" kind="function"><name>GetLanguage</name></member>
-    <member refid="class_entity_1a731df7d62d89351b8db1354a5d0fd2af" kind="function"><name>GetReferences</name></member>
-    <member refid="class_entity_1ab3a0c12af30851814d0c02a2609b6c1f" kind="function"><name>GetMetrics</name></member>
-    <member refid="class_entity_1aee4ee588be2dcd33fb732826cd089b83" kind="function"><name>GetComment</name></member>
-    <member refid="class_entity_1aa29dd7cf88ada1a02215ac5e8b3acf56" kind="function"><name>GetKindText</name></member>
+    <member refid="class_entity_1abda054125e3d1652978a15b56a9e8e8d" kind="function"><name>GetReferences</name></member>
+    <member refid="class_entity_1a25b389f406cd4af4196cb1aa7529b43d" kind="function"><name>GetMetrics</name></member>
+    <member refid="class_entity_1adb644dcdf081606c0aad27bde551dd57" kind="function"><name>GetComment</name></member>
+    <member refid="class_entity_1a2728b15d48d4fcf58973e19ffe4b1004" kind="function"><name>GetKindText</name></member>
   </compound>
   <compound refid="class_entity_kind_parser" kind="class"><name>EntityKindParser</name>
     <member refid="class_entity_kind_parser_1aa1f75c6015892a4e665b9040d604e191" kind="variable"><name>_scope</name></member>
     <member refid="class_entity_kind_parser_1a75a0905f6cdc29a60cadd4667e3facf8" kind="variable"><name>_entityKind</name></member>
-    <member refid="class_entity_kind_parser_1a62766700be158ea0c392d3c4c3f35925" kind="function"><name>EntityKindParser</name></member>
+    <member refid="class_entity_kind_parser_1ad81011e798c5d45fc7e66cff079b0f77" kind="function"><name>EntityKindParser</name></member>
     <member refid="class_entity_kind_parser_1aff58fdab06fd13c1c6a1d1c9278ffd7f" kind="function"><name>~EntityKindParser</name></member>
-    <member refid="class_entity_kind_parser_1a36b6ac1014738b1d449b6c3df4a1c707" kind="function"><name>ParseCppKinds</name></member>
-    <member refid="class_entity_kind_parser_1ab392873bd1f81b965282c0afed717e12" kind="function"><name>ParseCSharpKinds</name></member>
-    <member refid="class_entity_kind_parser_1abcfcdff1592d68b972430a5a5838c2f7" kind="function"><name>ParseJavaKinds</name></member>
+    <member refid="class_entity_kind_parser_1a474c8cefa3d5bef2e91a3f0c37d39a70" kind="function"><name>ParseCppKinds</name></member>
+    <member refid="class_entity_kind_parser_1a9165c0462e1211d162da9530db06dee8" kind="function"><name>ParseCSharpKinds</name></member>
+    <member refid="class_entity_kind_parser_1a1d5bd8b3ca3fe3aa0b72a50903dc982c" kind="function"><name>ParseJavaKinds</name></member>
   </compound>
   <compound refid="class_metric" kind="class"><name>Metric</name>
-    <member refid="class_metric_1a74ee15ba3bd9c0b0982e040b929dfd66" kind="variable"><name>_name</name></member>
-    <member refid="class_metric_1afdc4e83076950a09a5be681fd3d22676" kind="variable"><name>_description</name></member>
+    <member refid="class_metric_1a66aa408bdc1b1f63f75ed92a79f424c6" kind="variable"><name>_name</name></member>
+    <member refid="class_metric_1acca4776e47d261abd0f8547f3bbba4c4" kind="variable"><name>_description</name></member>
     <member refid="class_metric_1af07f25c0d11c768b766d902ac0122a61" kind="variable"><name>_isInteger</name></member>
     <member refid="class_metric_1a61c1f968913cc4efe233a3cc9bb2cdde" kind="variable"><name>_value</name></member>
     <member refid="class_metric_1a9c11f52636941243f474249797aa6ec3" kind="function"><name>Metric</name></member>
     <member refid="class_metric_1adc8e82a2fb75a49918fcf020b0d4ded7" kind="function"><name>~Metric</name></member>
-    <member refid="class_metric_1a718f0a94dc19cee87e239464befde15c" kind="function"><name>GetName</name></member>
-    <member refid="class_metric_1a3dc1969dc766cc75e1d39f6ad5618e9a" kind="function"><name>GetDescription</name></member>
+    <member refid="class_metric_1a1f283882b26175eead46b39fc2ecd477" kind="function"><name>GetName</name></member>
+    <member refid="class_metric_1af163ad9b820075f5fca46d3560bdf223" kind="function"><name>GetDescription</name></member>
     <member refid="class_metric_1ae511f867ce5e6b7e119054d564bbc287" kind="function"><name>IsInteger</name></member>
     <member refid="class_metric_1ad4578abfdd951d7f6d3f181c8544ac97" kind="function"><name>GetValue</name></member>
   </compound>
   <compound refid="class_project" kind="class"><name>Project</name>
-    <member refid="class_project_1a60fe18d197de100af3a94bd5bb9ce1c3" kind="variable"><name>_filename</name></member>
+    <member refid="class_project_1a6f714b6266a3738186112e6d5fc55a62" kind="variable"><name>_filename</name></member>
     <member refid="class_project_1a66d52da1345d7bc580990231635ad97b" kind="variable"><name>_isOpen</name></member>
-    <member refid="class_project_1af14bcee15a23dfc3b1dc50272ebad7db" kind="function"><name>Project</name></member>
+    <member refid="class_project_1ae1d8f38a932f79a57f033821ca5501e4" kind="function"><name>Project</name></member>
     <member refid="class_project_1ad165d61b76ee86ee9c27fd987a2a7b9e" kind="function"><name>~Project</name></member>
     <member refid="class_project_1a45bfe3647ba3320b3f67f4706e68aef5" kind="function"><name>Open</name></member>
     <member refid="class_project_1abfef9969a7e24452b20ebfe2d025df1e" kind="function"><name>Close</name></member>
     <member refid="class_project_1ac30a9db51b66b06d4145429f5017ab4f" kind="function"><name>GetLanguage</name></member>
-    <member refid="class_project_1ae24b0b9cb3d2e3765f9f0cd3fba553bc" kind="function"><name>GetName</name></member>
-    <member refid="class_project_1a094623413239bd7a66234f3fe7533375" kind="function"><name>GetBuild</name></member>
-    <member refid="class_project_1a26379b784bf6a28ab1847547fc9911f3" kind="function"><name>GetFiles</name></member>
-    <member refid="class_project_1a290732e75b1d3b1dc35622cc13fd54aa" kind="function"><name>GetEntities</name></member>
-    <member refid="class_project_1a199f420638d3ea003604e96e8b8730c9" kind="function"><name>GetMetrics</name></member>
+    <member refid="class_project_1a9394b14b4010aab868ff74a2b297d335" kind="function"><name>GetName</name></member>
+    <member refid="class_project_1a975c1eb3efcb5b59629a03e3b10c6ace" kind="function"><name>GetBuild</name></member>
+    <member refid="class_project_1a68ec872048f95bff6437e48ec2893688" kind="function"><name>GetFiles</name></member>
+    <member refid="class_project_1a837519b412aeeea82234a59a200461a7" kind="function"><name>GetEntities</name></member>
+    <member refid="class_project_1abc4ff55f5f6df2b5b275cce090ff7737" kind="function"><name>GetMetrics</name></member>
   </compound>
   <compound refid="class_reference" kind="class"><name>Reference</name>
     <member refid="class_reference_1aeeb9e76d54083b83d54470bbaa868bc1" kind="variable"><name>_sourceEntityId</name></member>
-    <member refid="class_reference_1a2b340b23387ad398e7e07ff607ab66b5" kind="variable"><name>_sourceEntityName</name></member>
-    <member refid="class_reference_1a5f54bd7a6dbb33fee5ea5f6e37522fc0" kind="variable"><name>_sourceEntityKindName</name></member>
+    <member refid="class_reference_1ac770d46c34b80ea0cc08ea832c07e23f" kind="variable"><name>_sourceEntityName</name></member>
+    <member refid="class_reference_1afe73fa6adf0ea6330d52ae6c23f275d6" kind="variable"><name>_sourceEntityKindName</name></member>
     <member refid="class_reference_1a5adb20d2e25b8ad71628f705c5ac93d4" kind="variable"><name>_targetEntityId</name></member>
-    <member refid="class_reference_1ac23fc03f386f2e02865d3ba272b9dded" kind="variable"><name>_targetEntityName</name></member>
-    <member refid="class_reference_1a1c21fb21e45e60702c5b77912e48b0c2" kind="variable"><name>_targetEntityKindName</name></member>
+    <member refid="class_reference_1a5ee5d17b480941a68fb5d6932f928741" kind="variable"><name>_targetEntityName</name></member>
+    <member refid="class_reference_1aa45fb0f33763dd680076e6aa47d663bd" kind="variable"><name>_targetEntityKindName</name></member>
     <member refid="class_reference_1a0be0163fcbd381727f051b3032efa475" kind="variable"><name>_kind</name></member>
-    <member refid="class_reference_1a69dced8abe9bb6a65091e404e44e60e4" kind="variable"><name>_file</name></member>
+    <member refid="class_reference_1af2c2c2080a2182548d1bf8b0d1f105fe" kind="variable"><name>_file</name></member>
     <member refid="class_reference_1ab705faeaeb3befa7b9c5c2c874475ec4" kind="variable"><name>_line</name></member>
     <member refid="class_reference_1ae78c936a9a75b2ce659a302c8b302d4e" kind="variable"><name>_column</name></member>
-    <member refid="class_reference_1aaf459b9ae002ebd0bb7b6496b01415cb" kind="variable"><name>_kindText</name></member>
+    <member refid="class_reference_1a205c7d2ce25dcb1c5867640dfa0cc5fa" kind="variable"><name>_kindText</name></member>
     <member refid="class_reference_1a3b0818e0c6e464cdba937ba2be9ec66b" kind="function"><name>Reference</name></member>
     <member refid="class_reference_1a40d21c5f6f98084f8badfcd481773e93" kind="function"><name>~Reference</name></member>
     <member refid="class_reference_1a6a299de01b0f57280e467981d15d2bde" kind="function"><name>GetSourceEntityId</name></member>
-    <member refid="class_reference_1a547f604b517c9e7f85b4d705f869d53a" kind="function"><name>GetSourceEntityName</name></member>
-    <member refid="class_reference_1ad806730e173c261f99d73790538759e6" kind="function"><name>GetSourceEntityKindName</name></member>
+    <member refid="class_reference_1a7df037f26448ca0d702cd2867cf44b9c" kind="function"><name>GetSourceEntityName</name></member>
+    <member refid="class_reference_1ad58e45c6ffddf40ebd961d557f4a6d96" kind="function"><name>GetSourceEntityKindName</name></member>
     <member refid="class_reference_1a503d036b6570805a393cb7c7ca58bfc3" kind="function"><name>GetTargetEntityId</name></member>
-    <member refid="class_reference_1a252d676b8cf9095c2e7f9b694d8d5e94" kind="function"><name>GetTargetEntityName</name></member>
-    <member refid="class_reference_1a24a3b77aa8afbcc57625ef91b1c19113" kind="function"><name>GetTargetEntityKindName</name></member>
+    <member refid="class_reference_1a699e996a241c9deec3843d8555668608" kind="function"><name>GetTargetEntityName</name></member>
+    <member refid="class_reference_1a951f055596aa411445eaf810b274a279" kind="function"><name>GetTargetEntityKindName</name></member>
     <member refid="class_reference_1a67363cd82c08195a5ed30543f5d54163" kind="function"><name>GetKind</name></member>
-    <member refid="class_reference_1aa6aa807e9ab642f507048194ba0d403c" kind="function"><name>GetFile</name></member>
+    <member refid="class_reference_1a6f445f9aa16ec02b10ea6c1ffe8801e6" kind="function"><name>GetFile</name></member>
     <member refid="class_reference_1a667be45cb23a884f43b46870279fa602" kind="function"><name>GetLine</name></member>
     <member refid="class_reference_1a454953017b01a8dee49722622c84a654" kind="function"><name>GetColumn</name></member>
-    <member refid="class_reference_1a87aa3fbbe7caa9e65ff42bdfbdeb2336" kind="function"><name>GetKindText</name></member>
+    <member refid="class_reference_1a654c8a9feb45291ab21ae584f04085a4" kind="function"><name>GetKindText</name></member>
   </compound>
   <compound refid="class_reference_kinds_parser" kind="class"><name>ReferenceKindsParser</name>
     <member refid="class_reference_kinds_parser_1aa3e13ac0b7cd5f08bfcbddb462d27a00" kind="variable"><name>__referencKind</name></member>
-    <member refid="class_reference_kinds_parser_1a57a56feecad525cc0eb3ee0dd6aa8b07" kind="function"><name>ReferenceKindsParser</name></member>
+    <member refid="class_reference_kinds_parser_1a20f5695cff8a4617609116bf7de050fa" kind="function"><name>ReferenceKindsParser</name></member>
     <member refid="class_reference_kinds_parser_1a8dc888d87f5213e8d0ef69e5ed45472e" kind="function"><name>~ReferenceKindsParser</name></member>
-    <member refid="class_reference_kinds_parser_1a8a3475ec55d1ddba5ab7318e7fe3ad1f" kind="function"><name>ParseCppKinds</name></member>
-    <member refid="class_reference_kinds_parser_1ab77f1bbb2544e51df12181027de0176b" kind="function"><name>ParseCSharpKinds</name></member>
-    <member refid="class_reference_kinds_parser_1a51ba6ebd08ca14f0fa19f566a5901a9b" kind="function"><name>ParseJavaKinds</name></member>
+    <member refid="class_reference_kinds_parser_1a120a1d9610cb965da21fca8d1d80e1d7" kind="function"><name>ParseCppKinds</name></member>
+    <member refid="class_reference_kinds_parser_1a58bf2d88bee58d2f76074417b2a67f8f" kind="function"><name>ParseCSharpKinds</name></member>
+    <member refid="class_reference_kinds_parser_1ada35c48942006b02d13b091f2c8467f3" kind="function"><name>ParseJavaKinds</name></member>
   </compound>
-  <compound refid="class_string_comparer" kind="class"><name>StringComparer</name>
-    <member refid="class_string_comparer_1a1cbd1b46fbffe74f385fe311de0a87e8" kind="variable"><name>_text</name></member>
-    <member refid="class_string_comparer_1a276a1b6f0317e415d65d8b2b3f0566fa" kind="function"><name>StringComparer</name></member>
-    <member refid="class_string_comparer_1a40d21d267adfedc7a636273979f635b1" kind="function"><name>~StringComparer</name></member>
-    <member refid="class_string_comparer_1a1145a535df34e554742a6358e401269a" kind="function"><name>ContainsText</name></member>
+  <compound refid="classstring_comparer" kind="class"><name>stringComparer</name>
+    <member refid="classstring_comparer_1a5cceb8421d44ccec58265557659a8c2a" kind="variable"><name>_text</name></member>
+    <member refid="classstring_comparer_1a4c7e0bcdecc2739954e5323c6ceaa9cd" kind="function"><name>stringComparer</name></member>
+    <member refid="classstring_comparer_1adf24e3c8bfe91a19de46edff729e4237" kind="function"><name>~stringComparer</name></member>
+    <member refid="classstring_comparer_1a342fdecf61627e270c2ee6292bc4a9d2" kind="function"><name>ContainsText</name></member>
   </compound>
   <compound refid="class_util" kind="class"><name>Util</name>
     <member refid="class_util_1a58d7917635be401cbf98131bbe5019ed" kind="function"><name>GetLanguage</name></member>
@@ -135,11 +135,11 @@
     <member refid="_language_8h_1a315ca917ad583797f709ea477dd28705ab83b80928df2fc2319916fc4e2b7e728" kind="enumvalue"><name>OtherLanguage</name></member>
   </compound>
   <compound refid="_main_8cpp" kind="file"><name>Main.cpp</name>
-    <member refid="_main_8cpp_1a27cb66f656b1603a505b5a4480664e04" kind="function"><name>ShowError</name></member>
-    <member refid="_main_8cpp_1aef4d43768fe91331e184a61d4da4e430" kind="function"><name>ListEntityKinds</name></member>
-    <member refid="_main_8cpp_1a0d569edf93aa2cd49a2ac594838ecbda" kind="function"><name>ListReferenceKinds</name></member>
-    <member refid="_main_8cpp_1aa73e8fe4ed388c6abb0377544b2efb18" kind="function"><name>ListProjectMetrics</name></member>
-    <member refid="_main_8cpp_1abe007ebab99184f7888e00f93af84799" kind="function"><name>ListEntities</name></member>
+    <member refid="_main_8cpp_1ab7f73666957a779cb72f2c89f92bcde7" kind="function"><name>ShowError</name></member>
+    <member refid="_main_8cpp_1a86cca8e8042d220ccb027c5b4697d9fb" kind="function"><name>ListEntityKinds</name></member>
+    <member refid="_main_8cpp_1a87e5799687d565e75931340f07586244" kind="function"><name>ListReferenceKinds</name></member>
+    <member refid="_main_8cpp_1a33ee46920e96b4e84c935327986a4968" kind="function"><name>ListProjectMetrics</name></member>
+    <member refid="_main_8cpp_1a252fe2ebc7e65a3444aeddf4af80dc49" kind="function"><name>ListEntities</name></member>
     <member refid="_main_8cpp_1a0ddf1224851353fc92bfbff6f499fa97" kind="function"><name>main</name></member>
   </compound>
   <compound refid="_metric_8cpp" kind="file"><name>Metric.cpp</name>
@@ -182,9 +182,5 @@
   <compound refid="_util_8cpp" kind="file"><name>Util.cpp</name>
   </compound>
   <compound refid="_util_8h" kind="file"><name>Util.h</name>
-  </compound>
-  <compound refid="dir_d9541b16d830c2a4bf2ff96e66811cc2" kind="dir"><name>C:/Github/UnderstandApi/CApiDemo</name>
-  </compound>
-  <compound refid="dir_051a99a96c21a4d5378d0c27d926d01f" kind="dir"><name>C:/Github/UnderstandApi</name>
   </compound>
 </doxygenindex>

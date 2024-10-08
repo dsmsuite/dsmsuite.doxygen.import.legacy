@@ -1,1 +1,1 @@
-Code from archive https://github.com/doxygen/doxygen
+Code from https://www.doxygen.nl/download.html. Use source distribution belonging to used doxygen version for compatibility between doxygen pout put and parser.

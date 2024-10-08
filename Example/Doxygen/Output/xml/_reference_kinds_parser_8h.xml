@@ -5,14 +5,14 @@
     <includes local="no">string</includes>
     <includes local="yes">udb.h</includes>
     <includes refid="_reference_kind_8h" local="yes">ReferenceKind.h</includes>
-    <includedby refid="_reference_kinds_parser_8cpp" local="yes">C:/Github/UnderstandApi/CApiDemo/ReferenceKindsParser.cpp</includedby>
+    <includedby refid="_reference_kinds_parser_8cpp" local="yes">ReferenceKindsParser.cpp</includedby>
     <incdepgraph>
       <node id="4">
         <label>ReferenceKind.h</label>
         <link refid="_reference_kind_8h"/>
       </node>
       <node id="1">
-        <label>C:/Github/UnderstandApi/CApiDemo/ReferenceKindsParser.h</label>
+        <label>ReferenceKindsParser.h</label>
         <link refid="_reference_kinds_parser_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -30,11 +30,11 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="2">
-        <label>C:/Github/UnderstandApi/CApiDemo/ReferenceKindsParser.cpp</label>
+        <label>ReferenceKindsParser.cpp</label>
         <link refid="_reference_kinds_parser_8cpp"/>
       </node>
       <node id="1">
-        <label>C:/Github/UnderstandApi/CApiDemo/ReferenceKindsParser.h</label>
+        <label>ReferenceKindsParser.h</label>
         <link refid="_reference_kinds_parser_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -45,6 +45,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="C:/Github/UnderstandApi/CApiDemo/ReferenceKindsParser.h"/>
+    <location file="ReferenceKindsParser.h"/>
   </compounddef>
 </doxygen>

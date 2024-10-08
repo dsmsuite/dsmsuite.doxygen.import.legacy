@@ -5,15 +5,15 @@
     <includes local="no">string</includes>
     <includes local="no">list</includes>
     <includes refid="_language_8h" local="yes">Language.h</includes>
-    <includedby refid="_main_8cpp" local="yes">C:/Github/UnderstandApi/CApiDemo/Main.cpp</includedby>
-    <includedby refid="_project_8cpp" local="yes">C:/Github/UnderstandApi/CApiDemo/Project.cpp</includedby>
+    <includedby refid="_main_8cpp" local="yes">Main.cpp</includedby>
+    <includedby refid="_project_8cpp" local="yes">Project.cpp</includedby>
     <incdepgraph>
       <node id="4">
         <label>Language.h</label>
         <link refid="_language_8h"/>
       </node>
       <node id="1">
-        <label>C:/Github/UnderstandApi/CApiDemo/Project.h</label>
+        <label>Project.h</label>
         <link refid="_project_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -31,15 +31,15 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="2">
-        <label>C:/Github/UnderstandApi/CApiDemo/Main.cpp</label>
+        <label>Main.cpp</label>
         <link refid="_main_8cpp"/>
       </node>
       <node id="3">
-        <label>C:/Github/UnderstandApi/CApiDemo/Project.cpp</label>
+        <label>Project.cpp</label>
         <link refid="_project_8cpp"/>
       </node>
       <node id="1">
-        <label>C:/Github/UnderstandApi/CApiDemo/Project.h</label>
+        <label>Project.h</label>
         <link refid="_project_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -52,6 +52,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="C:/Github/UnderstandApi/CApiDemo/Project.h"/>
+    <location file="Project.h"/>
   </compounddef>
 </doxygen>

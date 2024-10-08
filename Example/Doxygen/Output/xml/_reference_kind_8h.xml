@@ -2,23 +2,23 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
   <compounddef id="_reference_kind_8h" kind="file" language="C++">
     <compoundname>ReferenceKind.h</compoundname>
-    <includedby refid="_reference_8h" local="yes">C:/Github/UnderstandApi/CApiDemo/Reference.h</includedby>
-    <includedby refid="_reference_kinds_parser_8h" local="yes">C:/Github/UnderstandApi/CApiDemo/ReferenceKindsParser.h</includedby>
+    <includedby refid="_reference_8h" local="yes">Reference.h</includedby>
+    <includedby refid="_reference_kinds_parser_8h" local="yes">ReferenceKindsParser.h</includedby>
     <invincdepgraph>
       <node id="3">
-        <label>C:/Github/UnderstandApi/CApiDemo/Entity.cpp</label>
+        <label>Entity.cpp</label>
         <link refid="_entity_8cpp"/>
       </node>
       <node id="4">
-        <label>C:/Github/UnderstandApi/CApiDemo/Main.cpp</label>
+        <label>Main.cpp</label>
         <link refid="_main_8cpp"/>
       </node>
       <node id="5">
-        <label>C:/Github/UnderstandApi/CApiDemo/Reference.cpp</label>
+        <label>Reference.cpp</label>
         <link refid="_reference_8cpp"/>
       </node>
       <node id="2">
-        <label>C:/Github/UnderstandApi/CApiDemo/Reference.h</label>
+        <label>Reference.h</label>
         <link refid="_reference_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
@@ -28,7 +28,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>C:/Github/UnderstandApi/CApiDemo/ReferenceKind.h</label>
+        <label>ReferenceKind.h</label>
         <link refid="_reference_kind_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -36,11 +36,11 @@
         </childnode>
       </node>
       <node id="7">
-        <label>C:/Github/UnderstandApi/CApiDemo/ReferenceKindsParser.cpp</label>
+        <label>ReferenceKindsParser.cpp</label>
         <link refid="_reference_kinds_parser_8cpp"/>
       </node>
       <node id="6">
-        <label>C:/Github/UnderstandApi/CApiDemo/ReferenceKindsParser.h</label>
+        <label>ReferenceKindsParser.h</label>
         <link refid="_reference_kinds_parser_8h"/>
         <childnode refid="7" relation="include">
         </childnode>
@@ -91,13 +91,13 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Github/UnderstandApi/CApiDemo/ReferenceKind.h" line="3" column="1" bodyfile="C:/Github/UnderstandApi/CApiDemo/ReferenceKind.h" bodystart="4" bodyend="10"/>
+        <location file="ReferenceKind.h" line="3" column="1" bodyfile="ReferenceKind.h" bodystart="4" bodyend="10"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="C:/Github/UnderstandApi/CApiDemo/ReferenceKind.h"/>
+    <location file="ReferenceKind.h"/>
   </compounddef>
 </doxygen>

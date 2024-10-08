@@ -5,7 +5,7 @@
     <includes refid="_metric_8h" local="yes">Metric.h</includes>
     <incdepgraph>
       <node id="1">
-        <label>C:/Github/UnderstandApi/CApiDemo/Metric.cpp</label>
+        <label>Metric.cpp</label>
         <link refid="_metric_8cpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -29,6 +29,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="C:/Github/UnderstandApi/CApiDemo/Metric.cpp"/>
+    <location file="Metric.cpp"/>
   </compounddef>
 </doxygen>

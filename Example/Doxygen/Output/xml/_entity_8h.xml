@@ -8,13 +8,13 @@
     <includes refid="_scope_8h" local="yes">Scope.h</includes>
     <includes refid="_entity_kind_8h" local="yes">EntityKind.h</includes>
     <includes refid="_language_8h" local="yes">Language.h</includes>
-    <includedby refid="_entity_8cpp" local="yes">C:/Github/UnderstandApi/CApiDemo/Entity.cpp</includedby>
-    <includedby refid="_main_8cpp" local="yes">C:/Github/UnderstandApi/CApiDemo/Main.cpp</includedby>
-    <includedby refid="_project_8cpp" local="yes">C:/Github/UnderstandApi/CApiDemo/Project.cpp</includedby>
-    <includedby refid="_reference_8h" local="yes">C:/Github/UnderstandApi/CApiDemo/Reference.h</includedby>
+    <includedby refid="_entity_8cpp" local="yes">Entity.cpp</includedby>
+    <includedby refid="_main_8cpp" local="yes">Main.cpp</includedby>
+    <includedby refid="_project_8cpp" local="yes">Project.cpp</includedby>
+    <includedby refid="_reference_8h" local="yes">Reference.h</includedby>
     <incdepgraph>
       <node id="1">
-        <label>C:/Github/UnderstandApi/CApiDemo/Entity.h</label>
+        <label>Entity.h</label>
         <link refid="_entity_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -53,11 +53,11 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="2">
-        <label>C:/Github/UnderstandApi/CApiDemo/Entity.cpp</label>
+        <label>Entity.cpp</label>
         <link refid="_entity_8cpp"/>
       </node>
       <node id="1">
-        <label>C:/Github/UnderstandApi/CApiDemo/Entity.h</label>
+        <label>Entity.h</label>
         <link refid="_entity_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -69,19 +69,19 @@
         </childnode>
       </node>
       <node id="3">
-        <label>C:/Github/UnderstandApi/CApiDemo/Main.cpp</label>
+        <label>Main.cpp</label>
         <link refid="_main_8cpp"/>
       </node>
       <node id="4">
-        <label>C:/Github/UnderstandApi/CApiDemo/Project.cpp</label>
+        <label>Project.cpp</label>
         <link refid="_project_8cpp"/>
       </node>
       <node id="6">
-        <label>C:/Github/UnderstandApi/CApiDemo/Reference.cpp</label>
+        <label>Reference.cpp</label>
         <link refid="_reference_8cpp"/>
       </node>
       <node id="5">
-        <label>C:/Github/UnderstandApi/CApiDemo/Reference.h</label>
+        <label>Reference.h</label>
         <link refid="_reference_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -92,11 +92,10 @@
       </node>
     </invincdepgraph>
     <innerclass refid="class_entity" prot="public">Entity</innerclass>
-    <innernamespace refid="namespacestd">std</innernamespace>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="C:/Github/UnderstandApi/CApiDemo/Entity.h"/>
+    <location file="Entity.h"/>
   </compounddef>
 </doxygen>

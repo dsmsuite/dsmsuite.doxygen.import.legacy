@@ -3,12 +3,12 @@
   <compounddef id="_string_comparer_8h" kind="file" language="C++">
     <compoundname>StringComparer.h</compoundname>
     <includes local="no">string</includes>
-    <includedby refid="_entity_kind_parser_8cpp" local="yes">C:/Github/UnderstandApi/CApiDemo/EntityKindParser.cpp</includedby>
-    <includedby refid="_reference_kinds_parser_8cpp" local="yes">C:/Github/UnderstandApi/CApiDemo/ReferenceKindsParser.cpp</includedby>
-    <includedby refid="_string_comparer_8cpp" local="yes">C:/Github/UnderstandApi/CApiDemo/StringComparer.cpp</includedby>
+    <includedby refid="_entity_kind_parser_8cpp" local="yes">EntityKindParser.cpp</includedby>
+    <includedby refid="_reference_kinds_parser_8cpp" local="yes">ReferenceKindsParser.cpp</includedby>
+    <includedby refid="_string_comparer_8cpp" local="yes">StringComparer.cpp</includedby>
     <incdepgraph>
       <node id="1">
-        <label>C:/Github/UnderstandApi/CApiDemo/StringComparer.h</label>
+        <label>StringComparer.h</label>
         <link refid="_string_comparer_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -19,19 +19,19 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="2">
-        <label>C:/Github/UnderstandApi/CApiDemo/EntityKindParser.cpp</label>
+        <label>EntityKindParser.cpp</label>
         <link refid="_entity_kind_parser_8cpp"/>
       </node>
       <node id="3">
-        <label>C:/Github/UnderstandApi/CApiDemo/ReferenceKindsParser.cpp</label>
+        <label>ReferenceKindsParser.cpp</label>
         <link refid="_reference_kinds_parser_8cpp"/>
       </node>
       <node id="4">
-        <label>C:/Github/UnderstandApi/CApiDemo/StringComparer.cpp</label>
+        <label>StringComparer.cpp</label>
         <link refid="_string_comparer_8cpp"/>
       </node>
       <node id="1">
-        <label>C:/Github/UnderstandApi/CApiDemo/StringComparer.h</label>
+        <label>StringComparer.h</label>
         <link refid="_string_comparer_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -41,11 +41,11 @@
         </childnode>
       </node>
     </invincdepgraph>
-    <innerclass refid="class_string_comparer" prot="public">StringComparer</innerclass>
+    <innerclass refid="classstring_comparer" prot="public">stringComparer</innerclass>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="C:/Github/UnderstandApi/CApiDemo/StringComparer.h"/>
+    <location file="StringComparer.h"/>
   </compounddef>
 </doxygen>

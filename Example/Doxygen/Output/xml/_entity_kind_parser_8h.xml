@@ -6,14 +6,14 @@
     <includes local="yes">udb.h</includes>
     <includes refid="_scope_8h" local="yes">Scope.h</includes>
     <includes refid="_entity_kind_8h" local="yes">EntityKind.h</includes>
-    <includedby refid="_entity_kind_parser_8cpp" local="yes">C:/Github/UnderstandApi/CApiDemo/EntityKindParser.cpp</includedby>
+    <includedby refid="_entity_kind_parser_8cpp" local="yes">EntityKindParser.cpp</includedby>
     <incdepgraph>
       <node id="5">
         <label>EntityKind.h</label>
         <link refid="_entity_kind_8h"/>
       </node>
       <node id="1">
-        <label>C:/Github/UnderstandApi/CApiDemo/EntityKindParser.h</label>
+        <label>EntityKindParser.h</label>
         <link refid="_entity_kind_parser_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -37,11 +37,11 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="2">
-        <label>C:/Github/UnderstandApi/CApiDemo/EntityKindParser.cpp</label>
+        <label>EntityKindParser.cpp</label>
         <link refid="_entity_kind_parser_8cpp"/>
       </node>
       <node id="1">
-        <label>C:/Github/UnderstandApi/CApiDemo/EntityKindParser.h</label>
+        <label>EntityKindParser.h</label>
         <link refid="_entity_kind_parser_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -52,6 +52,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="C:/Github/UnderstandApi/CApiDemo/EntityKindParser.h"/>
+    <location file="EntityKindParser.h"/>
   </compounddef>
 </doxygen>

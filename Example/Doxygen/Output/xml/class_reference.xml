@@ -16,13 +16,13 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Github/UnderstandApi/CApiDemo/Reference.h" line="15" column="5" bodyfile="C:/Github/UnderstandApi/CApiDemo/Reference.h" bodystart="15" bodyend="-1"/>
+        <location file="Reference.h" line="13" column="5" bodyfile="Reference.h" bodystart="13" bodyend="-1"/>
         <referencedby refid="class_reference_1a6a299de01b0f57280e467981d15d2bde" compoundref="_reference_8cpp" startline="26" endline="29">GetSourceEntityId</referencedby>
         <referencedby refid="class_reference_1a3b0818e0c6e464cdba937ba2be9ec66b" compoundref="_reference_8cpp" startline="3" endline="19">Reference</referencedby>
       </memberdef>
-      <memberdef kind="variable" id="class_reference_1a2b340b23387ad398e7e07ff607ab66b5" prot="private" static="no" mutable="no">
-        <type>string</type>
-        <definition>string Reference::_sourceEntityName</definition>
+      <memberdef kind="variable" id="class_reference_1ac770d46c34b80ea0cc08ea832c07e23f" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string Reference::_sourceEntityName</definition>
         <argsstring></argsstring>
         <name>_sourceEntityName</name>
         <qualifiedname>Reference::_sourceEntityName</qualifiedname>
@@ -32,13 +32,13 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Github/UnderstandApi/CApiDemo/Reference.h" line="16" column="8" bodyfile="C:/Github/UnderstandApi/CApiDemo/Reference.h" bodystart="16" bodyend="-1"/>
-        <referencedby refid="class_reference_1a547f604b517c9e7f85b4d705f869d53a" compoundref="_reference_8cpp" startline="31" endline="34">GetSourceEntityName</referencedby>
+        <location file="Reference.h" line="14" column="13" bodyfile="Reference.h" bodystart="14" bodyend="-1"/>
+        <referencedby refid="class_reference_1a7df037f26448ca0d702cd2867cf44b9c" compoundref="_reference_8cpp" startline="31" endline="34">GetSourceEntityName</referencedby>
         <referencedby refid="class_reference_1a3b0818e0c6e464cdba937ba2be9ec66b" compoundref="_reference_8cpp" startline="3" endline="19">Reference</referencedby>
       </memberdef>
-      <memberdef kind="variable" id="class_reference_1a5f54bd7a6dbb33fee5ea5f6e37522fc0" prot="private" static="no" mutable="no">
-        <type>string</type>
-        <definition>string Reference::_sourceEntityKindName</definition>
+      <memberdef kind="variable" id="class_reference_1afe73fa6adf0ea6330d52ae6c23f275d6" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string Reference::_sourceEntityKindName</definition>
         <argsstring></argsstring>
         <name>_sourceEntityKindName</name>
         <qualifiedname>Reference::_sourceEntityKindName</qualifiedname>
@@ -48,8 +48,8 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Github/UnderstandApi/CApiDemo/Reference.h" line="17" column="8" bodyfile="C:/Github/UnderstandApi/CApiDemo/Reference.h" bodystart="17" bodyend="-1"/>
-        <referencedby refid="class_reference_1ad806730e173c261f99d73790538759e6" compoundref="_reference_8cpp" startline="36" endline="39">GetSourceEntityKindName</referencedby>
+        <location file="Reference.h" line="15" column="13" bodyfile="Reference.h" bodystart="15" bodyend="-1"/>
+        <referencedby refid="class_reference_1ad58e45c6ffddf40ebd961d557f4a6d96" compoundref="_reference_8cpp" startline="36" endline="39">GetSourceEntityKindName</referencedby>
         <referencedby refid="class_reference_1a3b0818e0c6e464cdba937ba2be9ec66b" compoundref="_reference_8cpp" startline="3" endline="19">Reference</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_reference_1a5adb20d2e25b8ad71628f705c5ac93d4" prot="private" static="no" mutable="no">
@@ -64,13 +64,13 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Github/UnderstandApi/CApiDemo/Reference.h" line="18" column="5" bodyfile="C:/Github/UnderstandApi/CApiDemo/Reference.h" bodystart="18" bodyend="-1"/>
+        <location file="Reference.h" line="16" column="5" bodyfile="Reference.h" bodystart="16" bodyend="-1"/>
         <referencedby refid="class_reference_1a503d036b6570805a393cb7c7ca58bfc3" compoundref="_reference_8cpp" startline="41" endline="44">GetTargetEntityId</referencedby>
         <referencedby refid="class_reference_1a3b0818e0c6e464cdba937ba2be9ec66b" compoundref="_reference_8cpp" startline="3" endline="19">Reference</referencedby>
       </memberdef>
-      <memberdef kind="variable" id="class_reference_1ac23fc03f386f2e02865d3ba272b9dded" prot="private" static="no" mutable="no">
-        <type>string</type>
-        <definition>string Reference::_targetEntityName</definition>
+      <memberdef kind="variable" id="class_reference_1a5ee5d17b480941a68fb5d6932f928741" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string Reference::_targetEntityName</definition>
         <argsstring></argsstring>
         <name>_targetEntityName</name>
         <qualifiedname>Reference::_targetEntityName</qualifiedname>
@@ -80,13 +80,13 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Github/UnderstandApi/CApiDemo/Reference.h" line="19" column="8" bodyfile="C:/Github/UnderstandApi/CApiDemo/Reference.h" bodystart="19" bodyend="-1"/>
-        <referencedby refid="class_reference_1a252d676b8cf9095c2e7f9b694d8d5e94" compoundref="_reference_8cpp" startline="46" endline="49">GetTargetEntityName</referencedby>
+        <location file="Reference.h" line="17" column="13" bodyfile="Reference.h" bodystart="17" bodyend="-1"/>
+        <referencedby refid="class_reference_1a699e996a241c9deec3843d8555668608" compoundref="_reference_8cpp" startline="46" endline="49">GetTargetEntityName</referencedby>
         <referencedby refid="class_reference_1a3b0818e0c6e464cdba937ba2be9ec66b" compoundref="_reference_8cpp" startline="3" endline="19">Reference</referencedby>
       </memberdef>
-      <memberdef kind="variable" id="class_reference_1a1c21fb21e45e60702c5b77912e48b0c2" prot="private" static="no" mutable="no">
-        <type>string</type>
-        <definition>string Reference::_targetEntityKindName</definition>
+      <memberdef kind="variable" id="class_reference_1aa45fb0f33763dd680076e6aa47d663bd" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string Reference::_targetEntityKindName</definition>
         <argsstring></argsstring>
         <name>_targetEntityKindName</name>
         <qualifiedname>Reference::_targetEntityKindName</qualifiedname>
@@ -96,8 +96,8 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Github/UnderstandApi/CApiDemo/Reference.h" line="20" column="8" bodyfile="C:/Github/UnderstandApi/CApiDemo/Reference.h" bodystart="20" bodyend="-1"/>
-        <referencedby refid="class_reference_1a24a3b77aa8afbcc57625ef91b1c19113" compoundref="_reference_8cpp" startline="51" endline="54">GetTargetEntityKindName</referencedby>
+        <location file="Reference.h" line="18" column="13" bodyfile="Reference.h" bodystart="18" bodyend="-1"/>
+        <referencedby refid="class_reference_1a951f055596aa411445eaf810b274a279" compoundref="_reference_8cpp" startline="51" endline="54">GetTargetEntityKindName</referencedby>
         <referencedby refid="class_reference_1a3b0818e0c6e464cdba937ba2be9ec66b" compoundref="_reference_8cpp" startline="3" endline="19">Reference</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_reference_1a0be0163fcbd381727f051b3032efa475" prot="private" static="no" mutable="no">
@@ -112,13 +112,13 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Github/UnderstandApi/CApiDemo/Reference.h" line="21" column="15" bodyfile="C:/Github/UnderstandApi/CApiDemo/Reference.h" bodystart="21" bodyend="-1"/>
+        <location file="Reference.h" line="19" column="15" bodyfile="Reference.h" bodystart="19" bodyend="-1"/>
         <referencedby refid="class_reference_1a67363cd82c08195a5ed30543f5d54163" compoundref="_reference_8cpp" startline="56" endline="59">GetKind</referencedby>
         <referencedby refid="class_reference_1a3b0818e0c6e464cdba937ba2be9ec66b" compoundref="_reference_8cpp" startline="3" endline="19">Reference</referencedby>
       </memberdef>
-      <memberdef kind="variable" id="class_reference_1a69dced8abe9bb6a65091e404e44e60e4" prot="private" static="no" mutable="no">
-        <type>string</type>
-        <definition>string Reference::_file</definition>
+      <memberdef kind="variable" id="class_reference_1af2c2c2080a2182548d1bf8b0d1f105fe" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string Reference::_file</definition>
         <argsstring></argsstring>
         <name>_file</name>
         <qualifiedname>Reference::_file</qualifiedname>
@@ -128,8 +128,8 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Github/UnderstandApi/CApiDemo/Reference.h" line="22" column="8" bodyfile="C:/Github/UnderstandApi/CApiDemo/Reference.h" bodystart="22" bodyend="-1"/>
-        <referencedby refid="class_reference_1aa6aa807e9ab642f507048194ba0d403c" compoundref="_reference_8cpp" startline="61" endline="64">GetFile</referencedby>
+        <location file="Reference.h" line="20" column="13" bodyfile="Reference.h" bodystart="20" bodyend="-1"/>
+        <referencedby refid="class_reference_1a6f445f9aa16ec02b10ea6c1ffe8801e6" compoundref="_reference_8cpp" startline="61" endline="64">GetFile</referencedby>
         <referencedby refid="class_reference_1a3b0818e0c6e464cdba937ba2be9ec66b" compoundref="_reference_8cpp" startline="3" endline="19">Reference</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_reference_1ab705faeaeb3befa7b9c5c2c874475ec4" prot="private" static="no" mutable="no">
@@ -144,7 +144,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Github/UnderstandApi/CApiDemo/Reference.h" line="23" column="5" bodyfile="C:/Github/UnderstandApi/CApiDemo/Reference.h" bodystart="23" bodyend="-1"/>
+        <location file="Reference.h" line="21" column="5" bodyfile="Reference.h" bodystart="21" bodyend="-1"/>
         <referencedby refid="class_reference_1a667be45cb23a884f43b46870279fa602" compoundref="_reference_8cpp" startline="66" endline="69">GetLine</referencedby>
         <referencedby refid="class_reference_1a3b0818e0c6e464cdba937ba2be9ec66b" compoundref="_reference_8cpp" startline="3" endline="19">Reference</referencedby>
       </memberdef>
@@ -160,13 +160,13 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Github/UnderstandApi/CApiDemo/Reference.h" line="24" column="5" bodyfile="C:/Github/UnderstandApi/CApiDemo/Reference.h" bodystart="24" bodyend="-1"/>
+        <location file="Reference.h" line="22" column="5" bodyfile="Reference.h" bodystart="22" bodyend="-1"/>
         <referencedby refid="class_reference_1a454953017b01a8dee49722622c84a654" compoundref="_reference_8cpp" startline="71" endline="74">GetColumn</referencedby>
         <referencedby refid="class_reference_1a3b0818e0c6e464cdba937ba2be9ec66b" compoundref="_reference_8cpp" startline="3" endline="19">Reference</referencedby>
       </memberdef>
-      <memberdef kind="variable" id="class_reference_1aaf459b9ae002ebd0bb7b6496b01415cb" prot="private" static="no" mutable="no">
-        <type>string</type>
-        <definition>string Reference::_kindText</definition>
+      <memberdef kind="variable" id="class_reference_1a205c7d2ce25dcb1c5867640dfa0cc5fa" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string Reference::_kindText</definition>
         <argsstring></argsstring>
         <name>_kindText</name>
         <qualifiedname>Reference::_kindText</qualifiedname>
@@ -176,8 +176,8 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Github/UnderstandApi/CApiDemo/Reference.h" line="25" column="8" bodyfile="C:/Github/UnderstandApi/CApiDemo/Reference.h" bodystart="25" bodyend="-1"/>
-        <referencedby refid="class_reference_1a87aa3fbbe7caa9e65ff42bdfbdeb2336" compoundref="_reference_8cpp" startline="76" endline="79">GetKindText</referencedby>
+        <location file="Reference.h" line="23" column="13" bodyfile="Reference.h" bodystart="23" bodyend="-1"/>
+        <referencedby refid="class_reference_1a654c8a9feb45291ab21ae584f04085a4" compoundref="_reference_8cpp" startline="76" endline="79">GetKindText</referencedby>
         <referencedby refid="class_reference_1a3b0818e0c6e464cdba937ba2be9ec66b" compoundref="_reference_8cpp" startline="3" endline="19">Reference</referencedby>
       </memberdef>
     </sectiondef>
@@ -206,18 +206,18 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Github/UnderstandApi/CApiDemo/Reference.h" line="27" column="1" bodyfile="C:/Github/UnderstandApi/CApiDemo/Reference.cpp" bodystart="3" bodyend="19"/>
-        <references refid="class_reference_1ae78c936a9a75b2ce659a302c8b302d4e" compoundref="_reference_8h" startline="24">_column</references>
-        <references refid="class_reference_1a69dced8abe9bb6a65091e404e44e60e4" compoundref="_reference_8h" startline="22">_file</references>
-        <references refid="class_reference_1a0be0163fcbd381727f051b3032efa475" compoundref="_reference_8h" startline="21">_kind</references>
-        <references refid="class_reference_1aaf459b9ae002ebd0bb7b6496b01415cb" compoundref="_reference_8h" startline="25">_kindText</references>
-        <references refid="class_reference_1ab705faeaeb3befa7b9c5c2c874475ec4" compoundref="_reference_8h" startline="23">_line</references>
-        <references refid="class_reference_1aeeb9e76d54083b83d54470bbaa868bc1" compoundref="_reference_8h" startline="15">_sourceEntityId</references>
-        <references refid="class_reference_1a5f54bd7a6dbb33fee5ea5f6e37522fc0" compoundref="_reference_8h" startline="17">_sourceEntityKindName</references>
-        <references refid="class_reference_1a2b340b23387ad398e7e07ff607ab66b5" compoundref="_reference_8h" startline="16">_sourceEntityName</references>
-        <references refid="class_reference_1a5adb20d2e25b8ad71628f705c5ac93d4" compoundref="_reference_8h" startline="18">_targetEntityId</references>
-        <references refid="class_reference_1a1c21fb21e45e60702c5b77912e48b0c2" compoundref="_reference_8h" startline="20">_targetEntityKindName</references>
-        <references refid="class_reference_1ac23fc03f386f2e02865d3ba272b9dded" compoundref="_reference_8h" startline="19">_targetEntityName</references>
+        <location file="Reference.h" line="25" column="1" bodyfile="Reference.cpp" bodystart="3" bodyend="19"/>
+        <references refid="class_reference_1ae78c936a9a75b2ce659a302c8b302d4e" compoundref="_reference_8h" startline="22">_column</references>
+        <references refid="class_reference_1af2c2c2080a2182548d1bf8b0d1f105fe" compoundref="_reference_8h" startline="20">_file</references>
+        <references refid="class_reference_1a0be0163fcbd381727f051b3032efa475" compoundref="_reference_8h" startline="19">_kind</references>
+        <references refid="class_reference_1a205c7d2ce25dcb1c5867640dfa0cc5fa" compoundref="_reference_8h" startline="23">_kindText</references>
+        <references refid="class_reference_1ab705faeaeb3befa7b9c5c2c874475ec4" compoundref="_reference_8h" startline="21">_line</references>
+        <references refid="class_reference_1aeeb9e76d54083b83d54470bbaa868bc1" compoundref="_reference_8h" startline="13">_sourceEntityId</references>
+        <references refid="class_reference_1afe73fa6adf0ea6330d52ae6c23f275d6" compoundref="_reference_8h" startline="15">_sourceEntityKindName</references>
+        <references refid="class_reference_1ac770d46c34b80ea0cc08ea832c07e23f" compoundref="_reference_8h" startline="14">_sourceEntityName</references>
+        <references refid="class_reference_1a5adb20d2e25b8ad71628f705c5ac93d4" compoundref="_reference_8h" startline="16">_targetEntityId</references>
+        <references refid="class_reference_1aa45fb0f33763dd680076e6aa47d663bd" compoundref="_reference_8h" startline="18">_targetEntityKindName</references>
+        <references refid="class_reference_1a5ee5d17b480941a68fb5d6932f928741" compoundref="_reference_8h" startline="17">_targetEntityName</references>
         <references refid="_reference_kind_8h_1ab67ef02b75c3226cfe0b2791e2b48b06a6529389ce1aab85b07ee6f0a6cce8720" compoundref="_reference_kind_8h" startline="9">OtherReferenceKind</references>
       </memberdef>
       <memberdef kind="function" id="class_reference_1a40d21c5f6f98084f8badfcd481773e93" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -232,7 +232,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Github/UnderstandApi/CApiDemo/Reference.h" line="28" column="1" bodyfile="C:/Github/UnderstandApi/CApiDemo/Reference.cpp" bodystart="21" bodyend="24"/>
+        <location file="Reference.h" line="26" column="1" bodyfile="Reference.cpp" bodystart="21" bodyend="24"/>
       </memberdef>
       <memberdef kind="function" id="class_reference_1a6a299de01b0f57280e467981d15d2bde" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -246,12 +246,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Github/UnderstandApi/CApiDemo/Reference.h" line="30" column="5" bodyfile="C:/Github/UnderstandApi/CApiDemo/Reference.cpp" bodystart="26" bodyend="29"/>
-        <references refid="class_reference_1aeeb9e76d54083b83d54470bbaa868bc1" compoundref="_reference_8h" startline="15">_sourceEntityId</references>
+        <location file="Reference.h" line="28" column="5" bodyfile="Reference.cpp" bodystart="26" bodyend="29"/>
+        <references refid="class_reference_1aeeb9e76d54083b83d54470bbaa868bc1" compoundref="_reference_8h" startline="13">_sourceEntityId</references>
       </memberdef>
-      <memberdef kind="function" id="class_reference_1a547f604b517c9e7f85b4d705f869d53a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>string</type>
-        <definition>string Reference::GetSourceEntityName</definition>
+      <memberdef kind="function" id="class_reference_1a7df037f26448ca0d702cd2867cf44b9c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string Reference::GetSourceEntityName</definition>
         <argsstring>() const</argsstring>
         <name>GetSourceEntityName</name>
         <qualifiedname>Reference::GetSourceEntityName</qualifiedname>
@@ -261,12 +261,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Github/UnderstandApi/CApiDemo/Reference.h" line="31" column="8" bodyfile="C:/Github/UnderstandApi/CApiDemo/Reference.cpp" bodystart="31" bodyend="34"/>
-        <references refid="class_reference_1a2b340b23387ad398e7e07ff607ab66b5" compoundref="_reference_8h" startline="16">_sourceEntityName</references>
+        <location file="Reference.h" line="29" column="13" bodyfile="Reference.cpp" bodystart="31" bodyend="34"/>
+        <references refid="class_reference_1ac770d46c34b80ea0cc08ea832c07e23f" compoundref="_reference_8h" startline="14">_sourceEntityName</references>
       </memberdef>
-      <memberdef kind="function" id="class_reference_1ad806730e173c261f99d73790538759e6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>string</type>
-        <definition>string Reference::GetSourceEntityKindName</definition>
+      <memberdef kind="function" id="class_reference_1ad58e45c6ffddf40ebd961d557f4a6d96" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string Reference::GetSourceEntityKindName</definition>
         <argsstring>() const</argsstring>
         <name>GetSourceEntityKindName</name>
         <qualifiedname>Reference::GetSourceEntityKindName</qualifiedname>
@@ -276,8 +276,8 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Github/UnderstandApi/CApiDemo/Reference.h" line="32" column="8" bodyfile="C:/Github/UnderstandApi/CApiDemo/Reference.cpp" bodystart="36" bodyend="39"/>
-        <references refid="class_reference_1a5f54bd7a6dbb33fee5ea5f6e37522fc0" compoundref="_reference_8h" startline="17">_sourceEntityKindName</references>
+        <location file="Reference.h" line="30" column="13" bodyfile="Reference.cpp" bodystart="36" bodyend="39"/>
+        <references refid="class_reference_1afe73fa6adf0ea6330d52ae6c23f275d6" compoundref="_reference_8h" startline="15">_sourceEntityKindName</references>
       </memberdef>
       <memberdef kind="function" id="class_reference_1a503d036b6570805a393cb7c7ca58bfc3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -291,13 +291,13 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Github/UnderstandApi/CApiDemo/Reference.h" line="33" column="5" bodyfile="C:/Github/UnderstandApi/CApiDemo/Reference.cpp" bodystart="41" bodyend="44"/>
-        <references refid="class_reference_1a5adb20d2e25b8ad71628f705c5ac93d4" compoundref="_reference_8h" startline="18">_targetEntityId</references>
-        <referencedby refid="_main_8cpp_1abe007ebab99184f7888e00f93af84799" compoundref="_main_8cpp" startline="98" endline="158">ListEntities</referencedby>
+        <location file="Reference.h" line="31" column="5" bodyfile="Reference.cpp" bodystart="41" bodyend="44"/>
+        <references refid="class_reference_1a5adb20d2e25b8ad71628f705c5ac93d4" compoundref="_reference_8h" startline="16">_targetEntityId</references>
+        <referencedby refid="_main_8cpp_1a252fe2ebc7e65a3444aeddf4af80dc49" compoundref="_main_8cpp" startline="98" endline="158">ListEntities</referencedby>
       </memberdef>
-      <memberdef kind="function" id="class_reference_1a252d676b8cf9095c2e7f9b694d8d5e94" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>string</type>
-        <definition>string Reference::GetTargetEntityName</definition>
+      <memberdef kind="function" id="class_reference_1a699e996a241c9deec3843d8555668608" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string Reference::GetTargetEntityName</definition>
         <argsstring>() const</argsstring>
         <name>GetTargetEntityName</name>
         <qualifiedname>Reference::GetTargetEntityName</qualifiedname>
@@ -307,13 +307,13 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Github/UnderstandApi/CApiDemo/Reference.h" line="34" column="8" bodyfile="C:/Github/UnderstandApi/CApiDemo/Reference.cpp" bodystart="46" bodyend="49"/>
-        <references refid="class_reference_1ac23fc03f386f2e02865d3ba272b9dded" compoundref="_reference_8h" startline="19">_targetEntityName</references>
-        <referencedby refid="_main_8cpp_1abe007ebab99184f7888e00f93af84799" compoundref="_main_8cpp" startline="98" endline="158">ListEntities</referencedby>
+        <location file="Reference.h" line="32" column="13" bodyfile="Reference.cpp" bodystart="46" bodyend="49"/>
+        <references refid="class_reference_1a5ee5d17b480941a68fb5d6932f928741" compoundref="_reference_8h" startline="17">_targetEntityName</references>
+        <referencedby refid="_main_8cpp_1a252fe2ebc7e65a3444aeddf4af80dc49" compoundref="_main_8cpp" startline="98" endline="158">ListEntities</referencedby>
       </memberdef>
-      <memberdef kind="function" id="class_reference_1a24a3b77aa8afbcc57625ef91b1c19113" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>string</type>
-        <definition>string Reference::GetTargetEntityKindName</definition>
+      <memberdef kind="function" id="class_reference_1a951f055596aa411445eaf810b274a279" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string Reference::GetTargetEntityKindName</definition>
         <argsstring>() const</argsstring>
         <name>GetTargetEntityKindName</name>
         <qualifiedname>Reference::GetTargetEntityKindName</qualifiedname>
@@ -323,9 +323,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Github/UnderstandApi/CApiDemo/Reference.h" line="35" column="8" bodyfile="C:/Github/UnderstandApi/CApiDemo/Reference.cpp" bodystart="51" bodyend="54"/>
-        <references refid="class_reference_1a1c21fb21e45e60702c5b77912e48b0c2" compoundref="_reference_8h" startline="20">_targetEntityKindName</references>
-        <referencedby refid="_main_8cpp_1abe007ebab99184f7888e00f93af84799" compoundref="_main_8cpp" startline="98" endline="158">ListEntities</referencedby>
+        <location file="Reference.h" line="33" column="13" bodyfile="Reference.cpp" bodystart="51" bodyend="54"/>
+        <references refid="class_reference_1aa45fb0f33763dd680076e6aa47d663bd" compoundref="_reference_8h" startline="18">_targetEntityKindName</references>
+        <referencedby refid="_main_8cpp_1a252fe2ebc7e65a3444aeddf4af80dc49" compoundref="_main_8cpp" startline="98" endline="158">ListEntities</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_reference_1a67363cd82c08195a5ed30543f5d54163" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="_reference_kind_8h_1ab67ef02b75c3226cfe0b2791e2b48b06" kindref="member">ReferenceKind</ref></type>
@@ -339,12 +339,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Github/UnderstandApi/CApiDemo/Reference.h" line="36" column="15" bodyfile="C:/Github/UnderstandApi/CApiDemo/Reference.cpp" bodystart="56" bodyend="59"/>
-        <references refid="class_reference_1a0be0163fcbd381727f051b3032efa475" compoundref="_reference_8h" startline="21">_kind</references>
+        <location file="Reference.h" line="34" column="15" bodyfile="Reference.cpp" bodystart="56" bodyend="59"/>
+        <references refid="class_reference_1a0be0163fcbd381727f051b3032efa475" compoundref="_reference_8h" startline="19">_kind</references>
       </memberdef>
-      <memberdef kind="function" id="class_reference_1aa6aa807e9ab642f507048194ba0d403c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>string</type>
-        <definition>string Reference::GetFile</definition>
+      <memberdef kind="function" id="class_reference_1a6f445f9aa16ec02b10ea6c1ffe8801e6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string Reference::GetFile</definition>
         <argsstring>() const</argsstring>
         <name>GetFile</name>
         <qualifiedname>Reference::GetFile</qualifiedname>
@@ -354,8 +354,8 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Github/UnderstandApi/CApiDemo/Reference.h" line="37" column="8" bodyfile="C:/Github/UnderstandApi/CApiDemo/Reference.cpp" bodystart="61" bodyend="64"/>
-        <references refid="class_reference_1a69dced8abe9bb6a65091e404e44e60e4" compoundref="_reference_8h" startline="22">_file</references>
+        <location file="Reference.h" line="35" column="13" bodyfile="Reference.cpp" bodystart="61" bodyend="64"/>
+        <references refid="class_reference_1af2c2c2080a2182548d1bf8b0d1f105fe" compoundref="_reference_8h" startline="20">_file</references>
       </memberdef>
       <memberdef kind="function" id="class_reference_1a667be45cb23a884f43b46870279fa602" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -369,8 +369,8 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Github/UnderstandApi/CApiDemo/Reference.h" line="38" column="5" bodyfile="C:/Github/UnderstandApi/CApiDemo/Reference.cpp" bodystart="66" bodyend="69"/>
-        <references refid="class_reference_1ab705faeaeb3befa7b9c5c2c874475ec4" compoundref="_reference_8h" startline="23">_line</references>
+        <location file="Reference.h" line="36" column="5" bodyfile="Reference.cpp" bodystart="66" bodyend="69"/>
+        <references refid="class_reference_1ab705faeaeb3befa7b9c5c2c874475ec4" compoundref="_reference_8h" startline="21">_line</references>
       </memberdef>
       <memberdef kind="function" id="class_reference_1a454953017b01a8dee49722622c84a654" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -384,12 +384,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Github/UnderstandApi/CApiDemo/Reference.h" line="39" column="5" bodyfile="C:/Github/UnderstandApi/CApiDemo/Reference.cpp" bodystart="71" bodyend="74"/>
-        <references refid="class_reference_1ae78c936a9a75b2ce659a302c8b302d4e" compoundref="_reference_8h" startline="24">_column</references>
+        <location file="Reference.h" line="37" column="5" bodyfile="Reference.cpp" bodystart="71" bodyend="74"/>
+        <references refid="class_reference_1ae78c936a9a75b2ce659a302c8b302d4e" compoundref="_reference_8h" startline="22">_column</references>
       </memberdef>
-      <memberdef kind="function" id="class_reference_1a87aa3fbbe7caa9e65ff42bdfbdeb2336" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>string</type>
-        <definition>string Reference::GetKindText</definition>
+      <memberdef kind="function" id="class_reference_1a654c8a9feb45291ab21ae584f04085a4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string Reference::GetKindText</definition>
         <argsstring>() const</argsstring>
         <name>GetKindText</name>
         <qualifiedname>Reference::GetKindText</qualifiedname>
@@ -399,9 +399,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Github/UnderstandApi/CApiDemo/Reference.h" line="40" column="8" bodyfile="C:/Github/UnderstandApi/CApiDemo/Reference.cpp" bodystart="76" bodyend="79"/>
-        <references refid="class_reference_1aaf459b9ae002ebd0bb7b6496b01415cb" compoundref="_reference_8h" startline="25">_kindText</references>
-        <referencedby refid="_main_8cpp_1abe007ebab99184f7888e00f93af84799" compoundref="_main_8cpp" startline="98" endline="158">ListEntities</referencedby>
+        <location file="Reference.h" line="38" column="13" bodyfile="Reference.cpp" bodystart="76" bodyend="79"/>
+        <references refid="class_reference_1a205c7d2ce25dcb1c5867640dfa0cc5fa" compoundref="_reference_8h" startline="23">_kindText</references>
+        <referencedby refid="_main_8cpp_1a252fe2ebc7e65a3444aeddf4af80dc49" compoundref="_main_8cpp" startline="98" endline="158">ListEntities</referencedby>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -413,57 +413,62 @@
         <label>Reference</label>
         <link refid="class_reference"/>
         <childnode refid="2" relation="usage">
-          <edgelabel>_column</edgelabel>
-          <edgelabel>_line</edgelabel>
-          <edgelabel>_sourceEntityId</edgelabel>
-          <edgelabel>_targetEntityId</edgelabel>
+          <edgelabel>-_column</edgelabel>
+          <edgelabel>-_line</edgelabel>
+          <edgelabel>-_sourceEntityId</edgelabel>
+          <edgelabel>-_targetEntityId</edgelabel>
         </childnode>
         <childnode refid="3" relation="usage">
-          <edgelabel>_file</edgelabel>
-          <edgelabel>_kindText</edgelabel>
-          <edgelabel>_sourceEntityKindName</edgelabel>
-          <edgelabel>_sourceEntityName</edgelabel>
-          <edgelabel>_targetEntityKindName</edgelabel>
-          <edgelabel>_targetEntityName</edgelabel>
+          <edgelabel>-_file</edgelabel>
+          <edgelabel>-_kindText</edgelabel>
+          <edgelabel>-_sourceEntityKindName</edgelabel>
+          <edgelabel>-_sourceEntityName</edgelabel>
+          <edgelabel>-_targetEntityKindName</edgelabel>
+          <edgelabel>-_targetEntityName</edgelabel>
         </childnode>
-        <childnode refid="4" relation="usage">
-          <edgelabel>_kind</edgelabel>
+        <childnode refid="5" relation="usage">
+          <edgelabel>-_kind</edgelabel>
         </childnode>
       </node>
-      <node id="4">
+      <node id="5">
         <label>ReferenceKind</label>
       </node>
       <node id="2">
         <label>int</label>
       </node>
+      <node id="4">
+        <label>std::basic_string&lt; Char &gt;</label>
+      </node>
       <node id="3">
-        <label>string</label>
+        <label>std::string</label>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
       </node>
     </collaborationgraph>
-    <location file="C:/Github/UnderstandApi/CApiDemo/Reference.h" line="12" column="1" bodyfile="C:/Github/UnderstandApi/CApiDemo/Reference.h" bodystart="13" bodyend="41"/>
+    <location file="Reference.h" line="10" column="1" bodyfile="Reference.h" bodystart="11" bodyend="39"/>
     <listofallmembers>
       <member refid="class_reference_1ae78c936a9a75b2ce659a302c8b302d4e" prot="private" virt="non-virtual"><scope>Reference</scope><name>_column</name></member>
-      <member refid="class_reference_1a69dced8abe9bb6a65091e404e44e60e4" prot="private" virt="non-virtual"><scope>Reference</scope><name>_file</name></member>
+      <member refid="class_reference_1af2c2c2080a2182548d1bf8b0d1f105fe" prot="private" virt="non-virtual"><scope>Reference</scope><name>_file</name></member>
       <member refid="class_reference_1a0be0163fcbd381727f051b3032efa475" prot="private" virt="non-virtual"><scope>Reference</scope><name>_kind</name></member>
-      <member refid="class_reference_1aaf459b9ae002ebd0bb7b6496b01415cb" prot="private" virt="non-virtual"><scope>Reference</scope><name>_kindText</name></member>
+      <member refid="class_reference_1a205c7d2ce25dcb1c5867640dfa0cc5fa" prot="private" virt="non-virtual"><scope>Reference</scope><name>_kindText</name></member>
       <member refid="class_reference_1ab705faeaeb3befa7b9c5c2c874475ec4" prot="private" virt="non-virtual"><scope>Reference</scope><name>_line</name></member>
       <member refid="class_reference_1aeeb9e76d54083b83d54470bbaa868bc1" prot="private" virt="non-virtual"><scope>Reference</scope><name>_sourceEntityId</name></member>
-      <member refid="class_reference_1a5f54bd7a6dbb33fee5ea5f6e37522fc0" prot="private" virt="non-virtual"><scope>Reference</scope><name>_sourceEntityKindName</name></member>
-      <member refid="class_reference_1a2b340b23387ad398e7e07ff607ab66b5" prot="private" virt="non-virtual"><scope>Reference</scope><name>_sourceEntityName</name></member>
+      <member refid="class_reference_1afe73fa6adf0ea6330d52ae6c23f275d6" prot="private" virt="non-virtual"><scope>Reference</scope><name>_sourceEntityKindName</name></member>
+      <member refid="class_reference_1ac770d46c34b80ea0cc08ea832c07e23f" prot="private" virt="non-virtual"><scope>Reference</scope><name>_sourceEntityName</name></member>
       <member refid="class_reference_1a5adb20d2e25b8ad71628f705c5ac93d4" prot="private" virt="non-virtual"><scope>Reference</scope><name>_targetEntityId</name></member>
-      <member refid="class_reference_1a1c21fb21e45e60702c5b77912e48b0c2" prot="private" virt="non-virtual"><scope>Reference</scope><name>_targetEntityKindName</name></member>
-      <member refid="class_reference_1ac23fc03f386f2e02865d3ba272b9dded" prot="private" virt="non-virtual"><scope>Reference</scope><name>_targetEntityName</name></member>
+      <member refid="class_reference_1aa45fb0f33763dd680076e6aa47d663bd" prot="private" virt="non-virtual"><scope>Reference</scope><name>_targetEntityKindName</name></member>
+      <member refid="class_reference_1a5ee5d17b480941a68fb5d6932f928741" prot="private" virt="non-virtual"><scope>Reference</scope><name>_targetEntityName</name></member>
       <member refid="class_reference_1a454953017b01a8dee49722622c84a654" prot="public" virt="non-virtual"><scope>Reference</scope><name>GetColumn</name></member>
-      <member refid="class_reference_1aa6aa807e9ab642f507048194ba0d403c" prot="public" virt="non-virtual"><scope>Reference</scope><name>GetFile</name></member>
+      <member refid="class_reference_1a6f445f9aa16ec02b10ea6c1ffe8801e6" prot="public" virt="non-virtual"><scope>Reference</scope><name>GetFile</name></member>
       <member refid="class_reference_1a67363cd82c08195a5ed30543f5d54163" prot="public" virt="non-virtual"><scope>Reference</scope><name>GetKind</name></member>
-      <member refid="class_reference_1a87aa3fbbe7caa9e65ff42bdfbdeb2336" prot="public" virt="non-virtual"><scope>Reference</scope><name>GetKindText</name></member>
+      <member refid="class_reference_1a654c8a9feb45291ab21ae584f04085a4" prot="public" virt="non-virtual"><scope>Reference</scope><name>GetKindText</name></member>
       <member refid="class_reference_1a667be45cb23a884f43b46870279fa602" prot="public" virt="non-virtual"><scope>Reference</scope><name>GetLine</name></member>
       <member refid="class_reference_1a6a299de01b0f57280e467981d15d2bde" prot="public" virt="non-virtual"><scope>Reference</scope><name>GetSourceEntityId</name></member>
-      <member refid="class_reference_1ad806730e173c261f99d73790538759e6" prot="public" virt="non-virtual"><scope>Reference</scope><name>GetSourceEntityKindName</name></member>
-      <member refid="class_reference_1a547f604b517c9e7f85b4d705f869d53a" prot="public" virt="non-virtual"><scope>Reference</scope><name>GetSourceEntityName</name></member>
+      <member refid="class_reference_1ad58e45c6ffddf40ebd961d557f4a6d96" prot="public" virt="non-virtual"><scope>Reference</scope><name>GetSourceEntityKindName</name></member>
+      <member refid="class_reference_1a7df037f26448ca0d702cd2867cf44b9c" prot="public" virt="non-virtual"><scope>Reference</scope><name>GetSourceEntityName</name></member>
       <member refid="class_reference_1a503d036b6570805a393cb7c7ca58bfc3" prot="public" virt="non-virtual"><scope>Reference</scope><name>GetTargetEntityId</name></member>
-      <member refid="class_reference_1a24a3b77aa8afbcc57625ef91b1c19113" prot="public" virt="non-virtual"><scope>Reference</scope><name>GetTargetEntityKindName</name></member>
-      <member refid="class_reference_1a252d676b8cf9095c2e7f9b694d8d5e94" prot="public" virt="non-virtual"><scope>Reference</scope><name>GetTargetEntityName</name></member>
+      <member refid="class_reference_1a951f055596aa411445eaf810b274a279" prot="public" virt="non-virtual"><scope>Reference</scope><name>GetTargetEntityKindName</name></member>
+      <member refid="class_reference_1a699e996a241c9deec3843d8555668608" prot="public" virt="non-virtual"><scope>Reference</scope><name>GetTargetEntityName</name></member>
       <member refid="class_reference_1a3b0818e0c6e464cdba937ba2be9ec66b" prot="public" virt="non-virtual"><scope>Reference</scope><name>Reference</name></member>
       <member refid="class_reference_1a40d21c5f6f98084f8badfcd481773e93" prot="public" virt="non-virtual"><scope>Reference</scope><name>~Reference</name></member>
     </listofallmembers>

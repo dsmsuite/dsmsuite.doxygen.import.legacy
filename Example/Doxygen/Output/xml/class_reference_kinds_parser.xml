@@ -16,18 +16,18 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Github/UnderstandApi/CApiDemo/ReferenceKindsParser.h" line="13" column="15" bodyfile="C:/Github/UnderstandApi/CApiDemo/ReferenceKindsParser.h" bodystart="13" bodyend="-1"/>
+        <location file="ReferenceKindsParser.h" line="11" column="15" bodyfile="ReferenceKindsParser.h" bodystart="11" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="class_reference_kinds_parser_1a57a56feecad525cc0eb3ee0dd6aa8b07" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="class_reference_kinds_parser_1a20f5695cff8a4617609116bf7de050fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
         <definition>ReferenceKindsParser::ReferenceKindsParser</definition>
-        <argsstring>(string kind, UdbLanguage udbLanguage)</argsstring>
+        <argsstring>(std::string kind, UdbLanguage udbLanguage)</argsstring>
         <name>ReferenceKindsParser</name>
         <qualifiedname>ReferenceKindsParser::ReferenceKindsParser</qualifiedname>
         <param>
-          <type>string</type>
+          <type>std::string</type>
           <declname>kind</declname>
         </param>
         <param>
@@ -40,10 +40,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Github/UnderstandApi/CApiDemo/ReferenceKindsParser.h" line="15" column="1" bodyfile="C:/Github/UnderstandApi/CApiDemo/ReferenceKindsParser.cpp" bodystart="4" bodyend="20"/>
-        <references refid="class_reference_kinds_parser_1a8a3475ec55d1ddba5ab7318e7fe3ad1f" compoundref="_reference_kinds_parser_8cpp" startline="26" endline="151">ParseCppKinds</references>
-        <references refid="class_reference_kinds_parser_1ab77f1bbb2544e51df12181027de0176b" compoundref="_reference_kinds_parser_8cpp" startline="153" endline="210">ParseCSharpKinds</references>
-        <references refid="class_reference_kinds_parser_1a51ba6ebd08ca14f0fa19f566a5901a9b" compoundref="_reference_kinds_parser_8cpp" startline="212" endline="273">ParseJavaKinds</references>
+        <location file="ReferenceKindsParser.h" line="13" column="1" bodyfile="ReferenceKindsParser.cpp" bodystart="4" bodyend="20"/>
+        <references refid="class_reference_kinds_parser_1a120a1d9610cb965da21fca8d1d80e1d7" compoundref="_reference_kinds_parser_8cpp" startline="26" endline="151">ParseCppKinds</references>
+        <references refid="class_reference_kinds_parser_1a58bf2d88bee58d2f76074417b2a67f8f" compoundref="_reference_kinds_parser_8cpp" startline="153" endline="210">ParseCSharpKinds</references>
+        <references refid="class_reference_kinds_parser_1ada35c48942006b02d13b091f2c8467f3" compoundref="_reference_kinds_parser_8cpp" startline="212" endline="273">ParseJavaKinds</references>
       </memberdef>
       <memberdef kind="function" id="class_reference_kinds_parser_1a8dc888d87f5213e8d0ef69e5ed45472e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -57,18 +57,18 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Github/UnderstandApi/CApiDemo/ReferenceKindsParser.h" line="16" column="1" bodyfile="C:/Github/UnderstandApi/CApiDemo/ReferenceKindsParser.cpp" bodystart="22" bodyend="24"/>
+        <location file="ReferenceKindsParser.h" line="14" column="1" bodyfile="ReferenceKindsParser.cpp" bodystart="22" bodyend="24"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
-      <memberdef kind="function" id="class_reference_kinds_parser_1a8a3475ec55d1ddba5ab7318e7fe3ad1f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="class_reference_kinds_parser_1a120a1d9610cb965da21fca8d1d80e1d7" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void ReferenceKindsParser::ParseCppKinds</definition>
-        <argsstring>(string kind)</argsstring>
+        <argsstring>(std::string kind)</argsstring>
         <name>ParseCppKinds</name>
         <qualifiedname>ReferenceKindsParser::ParseCppKinds</qualifiedname>
         <param>
-          <type>string</type>
+          <type>std::string</type>
           <declname>kind</declname>
         </param>
         <briefdescription>
@@ -77,18 +77,18 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Github/UnderstandApi/CApiDemo/ReferenceKindsParser.h" line="18" column="6" bodyfile="C:/Github/UnderstandApi/CApiDemo/ReferenceKindsParser.cpp" bodystart="26" bodyend="151"/>
-        <references refid="class_string_comparer_1a1145a535df34e554742a6358e401269a" compoundref="_string_comparer_8cpp" startline="14" endline="17">StringComparer::ContainsText</references>
-        <referencedby refid="class_reference_kinds_parser_1a57a56feecad525cc0eb3ee0dd6aa8b07" compoundref="_reference_kinds_parser_8cpp" startline="4" endline="20">ReferenceKindsParser</referencedby>
+        <location file="ReferenceKindsParser.h" line="16" column="6" bodyfile="ReferenceKindsParser.cpp" bodystart="26" bodyend="151"/>
+        <references refid="classstring_comparer_1a342fdecf61627e270c2ee6292bc4a9d2" compoundref="_string_comparer_8cpp" startline="14" endline="17">stringComparer::ContainsText</references>
+        <referencedby refid="class_reference_kinds_parser_1a20f5695cff8a4617609116bf7de050fa" compoundref="_reference_kinds_parser_8cpp" startline="4" endline="20">ReferenceKindsParser</referencedby>
       </memberdef>
-      <memberdef kind="function" id="class_reference_kinds_parser_1ab77f1bbb2544e51df12181027de0176b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="class_reference_kinds_parser_1a58bf2d88bee58d2f76074417b2a67f8f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void ReferenceKindsParser::ParseCSharpKinds</definition>
-        <argsstring>(string kind)</argsstring>
+        <argsstring>(std::string kind)</argsstring>
         <name>ParseCSharpKinds</name>
         <qualifiedname>ReferenceKindsParser::ParseCSharpKinds</qualifiedname>
         <param>
-          <type>string</type>
+          <type>std::string</type>
           <declname>kind</declname>
         </param>
         <briefdescription>
@@ -97,18 +97,18 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Github/UnderstandApi/CApiDemo/ReferenceKindsParser.h" line="19" column="6" bodyfile="C:/Github/UnderstandApi/CApiDemo/ReferenceKindsParser.cpp" bodystart="153" bodyend="210"/>
-        <references refid="class_string_comparer_1a1145a535df34e554742a6358e401269a" compoundref="_string_comparer_8cpp" startline="14" endline="17">StringComparer::ContainsText</references>
-        <referencedby refid="class_reference_kinds_parser_1a57a56feecad525cc0eb3ee0dd6aa8b07" compoundref="_reference_kinds_parser_8cpp" startline="4" endline="20">ReferenceKindsParser</referencedby>
+        <location file="ReferenceKindsParser.h" line="17" column="6" bodyfile="ReferenceKindsParser.cpp" bodystart="153" bodyend="210"/>
+        <references refid="classstring_comparer_1a342fdecf61627e270c2ee6292bc4a9d2" compoundref="_string_comparer_8cpp" startline="14" endline="17">stringComparer::ContainsText</references>
+        <referencedby refid="class_reference_kinds_parser_1a20f5695cff8a4617609116bf7de050fa" compoundref="_reference_kinds_parser_8cpp" startline="4" endline="20">ReferenceKindsParser</referencedby>
       </memberdef>
-      <memberdef kind="function" id="class_reference_kinds_parser_1a51ba6ebd08ca14f0fa19f566a5901a9b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="class_reference_kinds_parser_1ada35c48942006b02d13b091f2c8467f3" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void ReferenceKindsParser::ParseJavaKinds</definition>
-        <argsstring>(string kind)</argsstring>
+        <argsstring>(std::string kind)</argsstring>
         <name>ParseJavaKinds</name>
         <qualifiedname>ReferenceKindsParser::ParseJavaKinds</qualifiedname>
         <param>
-          <type>string</type>
+          <type>std::string</type>
           <declname>kind</declname>
         </param>
         <briefdescription>
@@ -117,9 +117,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Github/UnderstandApi/CApiDemo/ReferenceKindsParser.h" line="20" column="6" bodyfile="C:/Github/UnderstandApi/CApiDemo/ReferenceKindsParser.cpp" bodystart="212" bodyend="273"/>
-        <references refid="class_string_comparer_1a1145a535df34e554742a6358e401269a" compoundref="_string_comparer_8cpp" startline="14" endline="17">StringComparer::ContainsText</references>
-        <referencedby refid="class_reference_kinds_parser_1a57a56feecad525cc0eb3ee0dd6aa8b07" compoundref="_reference_kinds_parser_8cpp" startline="4" endline="20">ReferenceKindsParser</referencedby>
+        <location file="ReferenceKindsParser.h" line="18" column="6" bodyfile="ReferenceKindsParser.cpp" bodystart="212" bodyend="273"/>
+        <references refid="classstring_comparer_1a342fdecf61627e270c2ee6292bc4a9d2" compoundref="_string_comparer_8cpp" startline="14" endline="17">stringComparer::ContainsText</references>
+        <referencedby refid="class_reference_kinds_parser_1a20f5695cff8a4617609116bf7de050fa" compoundref="_reference_kinds_parser_8cpp" startline="4" endline="20">ReferenceKindsParser</referencedby>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -134,17 +134,17 @@
         <label>ReferenceKindsParser</label>
         <link refid="class_reference_kinds_parser"/>
         <childnode refid="2" relation="usage">
-          <edgelabel>__referencKind</edgelabel>
+          <edgelabel>-__referencKind</edgelabel>
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="C:/Github/UnderstandApi/CApiDemo/ReferenceKindsParser.h" line="11" column="1" bodyfile="C:/Github/UnderstandApi/CApiDemo/ReferenceKindsParser.h" bodystart="12" bodyend="21"/>
+    <location file="ReferenceKindsParser.h" line="9" column="1" bodyfile="ReferenceKindsParser.h" bodystart="10" bodyend="19"/>
     <listofallmembers>
       <member refid="class_reference_kinds_parser_1aa3e13ac0b7cd5f08bfcbddb462d27a00" prot="private" virt="non-virtual"><scope>ReferenceKindsParser</scope><name>__referencKind</name></member>
-      <member refid="class_reference_kinds_parser_1a8a3475ec55d1ddba5ab7318e7fe3ad1f" prot="private" virt="non-virtual"><scope>ReferenceKindsParser</scope><name>ParseCppKinds</name></member>
-      <member refid="class_reference_kinds_parser_1ab77f1bbb2544e51df12181027de0176b" prot="private" virt="non-virtual"><scope>ReferenceKindsParser</scope><name>ParseCSharpKinds</name></member>
-      <member refid="class_reference_kinds_parser_1a51ba6ebd08ca14f0fa19f566a5901a9b" prot="private" virt="non-virtual"><scope>ReferenceKindsParser</scope><name>ParseJavaKinds</name></member>
-      <member refid="class_reference_kinds_parser_1a57a56feecad525cc0eb3ee0dd6aa8b07" prot="public" virt="non-virtual"><scope>ReferenceKindsParser</scope><name>ReferenceKindsParser</name></member>
+      <member refid="class_reference_kinds_parser_1a120a1d9610cb965da21fca8d1d80e1d7" prot="private" virt="non-virtual"><scope>ReferenceKindsParser</scope><name>ParseCppKinds</name></member>
+      <member refid="class_reference_kinds_parser_1a58bf2d88bee58d2f76074417b2a67f8f" prot="private" virt="non-virtual"><scope>ReferenceKindsParser</scope><name>ParseCSharpKinds</name></member>
+      <member refid="class_reference_kinds_parser_1ada35c48942006b02d13b091f2c8467f3" prot="private" virt="non-virtual"><scope>ReferenceKindsParser</scope><name>ParseJavaKinds</name></member>
+      <member refid="class_reference_kinds_parser_1a20f5695cff8a4617609116bf7de050fa" prot="public" virt="non-virtual"><scope>ReferenceKindsParser</scope><name>ReferenceKindsParser</name></member>
       <member refid="class_reference_kinds_parser_1a8dc888d87f5213e8d0ef69e5ed45472e" prot="public" virt="non-virtual"><scope>ReferenceKindsParser</scope><name>~ReferenceKindsParser</name></member>
     </listofallmembers>
   </compounddef>

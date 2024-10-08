@@ -60,6 +60,8 @@ class Model:
                 member_filename = member_def.location.file
                 model_member = ModelMember(member_id, member_kind, member_name, compound_id, member_filename)
 
+                print("kind={} name={} file={}".format(member_kind, member_name, member_filename))
+
                 parent_compound = self._compounds[compound_id]
 
                 node_name = self.get_member_node_name(parent_compound, model_member)
@@ -70,8 +72,15 @@ class Model:
 
                 if member_kind == DoxMemberKind.ENUM:
                     for member_enum_value in member_def.enumvalue:
-                        enum_value_id = member_enum_value.id
-                        self._node_map[enum_value_id] = node
+
+                        enum_value_id   = member_enum_value.id
+                        enum_value_name = member_enum_value.name
+                        enum_value_node = self._graph.create_node(enum_value_name, "enum_value", "")
+
+                        print("  kind={} name={} file={}".format("enum_value", enum_value_name, member_filename))
+
+                        self._node_map[enum_value_id] = enum_value_node
+                        self._graph.add_node_child(node, enum_value_node)
 
     def find_member_references(self):
         for compound in self._index_object.get_compound():
